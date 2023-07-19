@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "a22ed1dbebafae47",
+    "type": "split",
+    "children": [
+      {
+        "id": "b154c6d1828e6a98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60f59133dd0d2919",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习算法和刷题的框架思维.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09816dcaf1e7d7bd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "acce3c757f2dfa53",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a6b35e8417b1de92",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5f5cdf40a9eb30ff",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "80b03817240ebfb9",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "49f791841ab96c53",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7cf4d829a4353df7",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "学习算法和刷题的框架思维.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "da3afe019722ebcd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "学习算法和刷题的框架思维.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e31e11d8deb5d31a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "学习算法和刷题的框架思维.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "acce3c757f2dfa53",
+  "lastOpenFiles": []
+}
