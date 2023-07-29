@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS开发/App.md",
-                "mode": "preview",
+                "file": "iOS开发/XcodeShortcuts.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS开发/App.md",
+                "file": "iOS开发/XcodeShortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS开发/App.md",
+                "file": "iOS开发/XcodeShortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS开发/App.md"
+                "file": "iOS开发/XcodeShortcuts.md"
               }
             }
           }
@@ -173,8 +173,10 @@
   },
   "active": "8ad5681e49e76e11",
   "lastOpenFiles": [
-    "iOS开发/App是怎么运行的.md",
     "iOS开发/App.md",
+    "iOS开发/XcodeShortcuts.md",
+    "Attachments/XcodeKeyboardShortcuts.pdf",
+    "iOS开发/App是怎么运行的.md",
     "iOS开发/开发App的流程.md",
     "数据结构&算法/我的刷题心得.md",
     "数据结构&算法/双指针.md",
