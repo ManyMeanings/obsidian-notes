@@ -11,8 +11,12 @@
             "id": "4468d38fa25f31a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md"
+          }
         }
       }
     ],
@@ -123,7 +131,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4468d38fa25f31a0",
+  "active": "c171460536aa9ec3",
   "lastOpenFiles": [
     "数据结构&算法/数据结构/数组.md",
     "数据结构&算法/数据结构",
