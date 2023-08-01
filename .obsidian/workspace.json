@@ -14,13 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92c3c8c03f0b04fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
+                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
+                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +140,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md"
+                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,24 +161,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8ff06bda5284b6de",
+  "active": "92c3c8c03f0b04fc",
   "lastOpenFiles": [
-    "2023-08-01.md",
     "数据结构&算法/题目/303.区域和检索-数组不可变.md",
+    "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+    "数据结构&算法/算法/前缀和.md",
+    "数据结构&算法/学习算法和刷题的框架思维.md",
+    "文章摘录/学习编程的12条规则.md",
+    "Templates/LeetCode.md",
+    "2023-08-01.md",
     "数据结构&算法/数据结构/二叉树.md",
     "数据结构&算法/数据结构/链表.md",
     "数据结构&算法/数据结构/数组.md",
-    "数据结构&算法/算法/前缀和.md",
     "数据结构&算法/穷举.md",
     "数据结构&算法/框架.md",
     "数据结构&算法/双指针.md",
     "数据结构&算法/我的刷题心得.md",
-    "数据结构&算法/学习算法和刷题的框架思维.md",
-    "文章摘录/学习编程的12条规则.md",
     "iOS开发/App.md",
     "iOS开发/XcodeShortcuts.md",
     "Templates/文章摘录.md",
-    "Templates/LeetCode.md",
     "数据结构&算法/题目",
     "数据结构&算法/算法",
     "数据结构&算法/数据结构",
