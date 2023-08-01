@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "a22ed1dbebafae47",
+    "id": "7eefaf4e6daa32bc",
     "type": "split",
     "children": [
       {
-        "id": "b154c6d1828e6a98",
+        "id": "bbf44667fda889d8",
         "type": "tabs",
         "children": [
           {
-            "id": "60f59133dd0d2919",
+            "id": "4468d38fa25f31a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习算法和刷题的框架思维.md",
+                "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "09816dcaf1e7d7bd",
+    "id": "48bdbb7eef6aa179",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "acce3c757f2dfa53",
+        "id": "c171460536aa9ec3",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "a6b35e8417b1de92",
+        "id": "d43d61195c49da5c",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "5f5cdf40a9eb30ff",
+        "id": "4b51e31959cdb053",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "80b03817240ebfb9",
+        "id": "6b1641c4c744c9f2",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,16 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "49f791841ab96c53",
+    "id": "1521988fd749167a",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "7cf4d829a4353df7",
+        "id": "d163e5e76256da13",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "学习算法和刷题的框架思维.md",
+            "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,24 +97,24 @@
         }
       },
       {
-        "id": "da3afe019722ebcd",
+        "id": "60f0e1a4056c2717",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "学习算法和刷题的框架思维.md",
+            "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "e31e11d8deb5d31a",
+        "id": "3f402f234e68ecc3",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "学习算法和刷题的框架思维.md"
+            "file": "数据结构&算法/题目/303.区域和检索-数组不可变.md"
           }
         }
       }
@@ -131,6 +131,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "acce3c757f2dfa53",
-  "lastOpenFiles": []
+  "active": "4468d38fa25f31a0",
+  "lastOpenFiles": [
+    "数据结构&算法/框架.md",
+    "数据结构&算法/题目/303.区域和检索-数组不可变.md",
+    "数据结构&算法/数据结构/数组.md",
+    "数据结构&算法/数据结构",
+    "数据结构&算法/数据结构/二叉树.md",
+    "数据结构&算法/题目",
+    "数据结构&算法/算法/前缀和.md",
+    "数据结构&算法/算法",
+    "数据结构&算法/数据结构/链表.md",
+    "/文章摘录/学习编程的12条规则.md",
+    "/数据结构&算法/题目/303.区域和检索-数组不可变.md",
+    "/数据结构&算法/算法/前缀和.md",
+    "/数据结构&算法/数据结构/链表.md",
+    "/数据结构&算法/数据结构/数组.md",
+    "/数据结构&算法/数据结构/二叉树.md",
+    "/数据结构&算法/我的刷题心得.md",
+    "/数据结构&算法/学习算法和刷题的框架思维.md",
+    "/数据结构&算法/题目",
+    "/数据结构&算法/算法",
+    "/数据结构&算法/数据结构",
+    "iOS开发/开发App的流程.md",
+    "文章摘录/学习编程的12条规则.md",
+    "LICENSE",
+    "README.md",
+    "Templates",
+    "文章摘录",
+    "iOS开发/App是怎么运行的.md",
+    "iOS开发",
+    "数据结构&算法/学习算法和刷题的框架思维.md",
+    "数据结构&算法/二叉树.md",
+    "数据结构&算法/双指针.md",
+    "数据结构&算法/数组.md",
+    "数据结构&算法/穷举.md",
+    "数据结构&算法/链表.md",
+    "数据结构&算法/我的刷题心得.md",
+    "Templates/文章摘录.md"
+  ]
 }
