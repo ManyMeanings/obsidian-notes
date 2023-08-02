@@ -26,25 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+                "file": "数据结构&算法/算法/前缀和.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "458629cf654c6fd3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.7"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+                "file": "数据结构&算法/算法/前缀和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+                "file": "数据结构&算法/算法/前缀和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md"
+                "file": "数据结构&算法/算法/前缀和.md"
               }
             }
           }
@@ -171,10 +161,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "458629cf654c6fd3",
+  "active": "92c3c8c03f0b04fc",
   "lastOpenFiles": [
-    "数据结构&算法/题目/303.区域和检索-数组不可变.md",
     "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+    "数据结构&算法/题目/303.区域和检索-数组不可变.md",
     "数据结构&算法/算法/前缀和.md",
     "数据结构&算法/学习算法和刷题的框架思维.md",
     "文章摘录/学习编程的12条规则.md",
