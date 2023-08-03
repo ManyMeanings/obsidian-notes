@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md",
+                "file": "数据结构&算法/题目/21.合并两个有序链表.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md",
+                "file": "数据结构&算法/题目/21.合并两个有序链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md",
+                "file": "数据结构&算法/题目/21.合并两个有序链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md"
+                "file": "数据结构&算法/题目/21.合并两个有序链表.md"
               }
             }
           }
@@ -163,11 +163,14 @@
   },
   "active": "92c3c8c03f0b04fc",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20230803171312.png",
+    "数据结构&算法/题目/21.合并两个有序链表.md",
+    "Attachments/Pasted image 20230803171126.png",
+    "数据结构&算法/数据结构/链表.md",
     "数据结构&算法/算法/差分数组.md",
     "数据结构&算法/算法/前缀和.md",
     "数据结构&算法/算法/双指针.md",
     "数据结构&算法/数据结构/数组.md",
-    "数据结构&算法/数据结构/链表.md",
     "数据结构&算法/数据结构/二叉树.md",
     "数据结构&算法/数据结构/未命名.md",
     "数据结构&算法/题目/1109.航班预订统计.md",
@@ -196,8 +199,6 @@
     "Attachments/008 12-Rules-to-Learn-to-Code-eBook-Updated-26.11.18.pdf",
     "README.md",
     "学习算法和刷题的框架思维.md",
-    "我的刷题心得.md",
-    "穷举.md",
     "Templates",
     "未命名.canvas"
   ]

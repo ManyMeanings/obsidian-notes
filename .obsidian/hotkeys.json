@@ -6,5 +6,14 @@
       ],
       "key": "J"
     }
+  ],
+  "obsidian-format-code:format-prettier-TypeScript": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
   ]
 }
