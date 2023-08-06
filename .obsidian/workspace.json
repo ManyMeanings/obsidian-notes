@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/86.分隔链表.md",
-                "mode": "preview",
+                "file": "iOS开发/Swift.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/86.分隔链表.md",
+                "file": "iOS开发/Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/86.分隔链表.md",
+                "file": "iOS开发/Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/86.分隔链表.md"
+                "file": "iOS开发/Swift.md"
               }
             }
           }
@@ -147,10 +147,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8ff06bda5284b6de",
+  "active": "3640c9fe02f2eea9",
   "lastOpenFiles": [
-    "数据结构&算法/题目/21.合并两个有序链表.md",
+    "iOS开发/常用代码.md",
+    "iOS开发/App.md",
+    "iOS开发/Swift.md",
+    "iOS开发/Swift Cheat Sheet.md",
+    "Attachments/Swift Cheat Sheet [Swift 5].pdf",
+    "iOS开发/XcodeShortcuts.md",
     "数据结构&算法/题目/86.分隔链表.md",
+    "数据结构&算法/题目/21.合并两个有序链表.md",
     "数据结构&算法/题目/303.区域和检索-数组不可变.md",
     "Attachments/Pasted image 20230803171312.png",
     "Attachments/Pasted image 20230803171126.png",
@@ -172,20 +178,14 @@
     "数据结构&算法/穷举.md",
     "数据结构&算法/框架.md",
     "数据结构&算法/我的刷题心得.md",
-    "iOS开发/App.md",
-    "iOS开发/XcodeShortcuts.md",
     "Templates/文章摘录.md",
     "数据结构&算法/题目",
     "数据结构&算法/算法",
     "数据结构&算法/数据结构",
     "Attachments/XcodeKeyboardShortcuts.pdf",
-    "iOS开发/App是怎么运行的.md",
-    "iOS开发/开发App的流程.md",
     "文章摘录",
     "Attachments",
     "Attachments/008 12-Rules-to-Learn-to-Code-eBook-Updated-26.11.18.pdf",
-    "README.md",
-    "学习算法和刷题的框架思维.md",
     "Templates",
     "未命名.canvas"
   ]
