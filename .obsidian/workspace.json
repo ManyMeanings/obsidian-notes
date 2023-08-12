@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/160.相交链表.md",
+                "file": "iOS开发/常用代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/160.相交链表.md",
+                "file": "iOS开发/常用代码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,11 +140,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/160.相交链表.md"
+                "file": "iOS开发/常用代码.md"
               }
             }
+          },
+          {
+            "id": "5ef45f7a3214c234",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -153,18 +162,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7547424aa178566b",
+  "active": "3640c9fe02f2eea9",
   "lastOpenFiles": [
-    "iOS开发/常用代码.md",
+    "Excalidraw/Drawing 2023-08-11 17.16.50.excalidraw.md",
     "数据结构&算法/题目/160.相交链表.md",
+    "Excalidraw",
+    "iOS开发/常用代码.md",
     "数据结构&算法/题目/19.删除链表的倒数第 N 个结点.md",
     "数据结构&算法/题目/141.环形链表.md",
     "数据结构&算法/题目/142.环形链表 II.md",
@@ -193,7 +205,6 @@
     "数据结构&算法/数据结构/未命名.md",
     "Attachments/Pasted image 20230802170859.png",
     "Attachments/Pasted image 20230802163613.png",
-    "数据结构&算法/学习算法和刷题的框架思维.md",
     "数据结构&算法/题目",
     "数据结构&算法/算法",
     "数据结构&算法/数据结构",
