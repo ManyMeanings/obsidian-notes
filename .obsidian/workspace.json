@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/283.移动零.md",
+                "file": "iOS开发/自动布局.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/283.移动零.md",
+                "file": "iOS开发/自动布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/283.移动零.md",
+                "file": "iOS开发/自动布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/283.移动零.md"
+                "file": "iOS开发/自动布局.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   },
   "active": "7547424aa178566b",
   "lastOpenFiles": [
-    "数据结构&算法/题目/27.移除元素.md",
     "数据结构&算法/题目/283.移动零.md",
+    "数据结构&算法/题目/27.移除元素.md",
     "数据结构&算法/题目/26.删除有序数组中的重复项.md",
     "数据结构&算法/题目/83.删除排序链表中的重复元素.md",
     "数据结构&算法/算法/双指针.md",
