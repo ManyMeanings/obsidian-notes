@@ -1,35 +1,47 @@
 {
   "main": {
-    "id": "7eefaf4e6daa32bc",
+    "id": "2966a6e96019c26c",
     "type": "split",
     "children": [
       {
-        "id": "bbf44667fda889d8",
+        "id": "6b7e464dacf747fa",
         "type": "tabs",
         "children": [
           {
-            "id": "4468d38fa25f31a0",
+            "id": "8ce0e58f809168d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a7b05945538307f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "48bdbb7eef6aa179",
+    "id": "c417d1d8d0331896",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "c171460536aa9ec3",
+        "id": "e16e63bbf59691ae",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +51,7 @@
         }
       },
       {
-        "id": "d43d61195c49da5c",
+        "id": "f1acc8043fda63a6",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +66,7 @@
         }
       },
       {
-        "id": "4b51e31959cdb053",
+        "id": "7c09739ee1e49963",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +77,7 @@
         }
       },
       {
-        "id": "6b1641c4c744c9f2",
+        "id": "0db06961845bd812",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,16 +88,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "1521988fd749167a",
+    "id": "6097f1e8947f6501",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d163e5e76256da13",
+        "id": "354df8e5ccb8877d",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,24 +109,24 @@
         }
       },
       {
-        "id": "60f0e1a4056c2717",
+        "id": "36b4c24c832acfdd",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "3f402f234e68ecc3",
+        "id": "1c41b0ce28825869",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md"
           }
         }
       }
@@ -123,53 +135,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "c171460536aa9ec3",
+  "active": "0a7b05945538307f",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20230802163613.png",
-    "/文章摘录/学习编程的12条规则.md",
-    "/数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
-    "/数据结构&算法/题目/303.区域和检索-数组不可变.md",
-    "/数据结构&算法/题目/1109.航班预订统计.md",
-    "/数据结构&算法/算法/差分数组.md",
-    "/数据结构&算法/算法/前缀和.md",
-    "/数据结构&算法/我的刷题心得.md",
-    "/数据结构&算法/学习算法和刷题的框架思维.md",
-    "/iOS开发/App.md",
-    "/Templates/文章摘录.md",
-    "/Templates/LeetCode.md",
-    "/Attachments/Pasted image 20230802170859.png",
-    "/Attachments/Pasted image 20230802163613.png",
-    "数据结构&算法/题目/303.区域和检索-数组不可变.md",
-    "数据结构&算法/框架.md",
-    "数据结构&算法/数据结构/数组.md",
-    "数据结构&算法/数据结构",
-    "数据结构&算法/数据结构/二叉树.md",
-    "数据结构&算法/题目",
-    "数据结构&算法/算法/前缀和.md",
-    "数据结构&算法/算法",
-    "数据结构&算法/数据结构/链表.md",
-    "/数据结构&算法/数据结构/链表.md",
-    "/数据结构&算法/数据结构/数组.md",
-    "/数据结构&算法/数据结构/二叉树.md",
-    "/数据结构&算法/题目",
-    "/数据结构&算法/算法",
-    "/数据结构&算法/数据结构",
-    "iOS开发/开发App的流程.md",
-    "文章摘录/学习编程的12条规则.md",
-    "LICENSE",
     "README.md",
-    "Templates",
-    "文章摘录",
-    "iOS开发/App是怎么运行的.md",
+    "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
+    "Excalidraw",
+    "LICENSE",
+    "Attachments/Pasted image 20230803171126.png",
+    "Attachments/Pasted image 20230802170859.png",
+    "Attachments/Pasted image 20230803171312.png",
+    "Attachments/XcodeKeyboardShortcuts.pdf",
+    "Attachments/008 12-Rules-to-Learn-to-Code-eBook-Updated-26.11.18.pdf",
+    "Attachments/Pasted image 20230802163613.png",
+    "Attachments/Swift Cheat Sheet [Swift 5].pdf",
+    "Attachments",
+    "iOS开发/App.md",
+    "iOS开发/XcodeShortcuts.md",
+    "iOS开发/自动布局.md",
+    "iOS开发/Swift Cheat Sheet.md",
+    "iOS开发/Swift.md",
+    "iOS开发/常用代码.md",
     "iOS开发",
-    "数据结构&算法/学习算法和刷题的框架思维.md"
+    "文章摘录/学习编程的12条规则.md",
+    "文章摘录",
+    "Templates/LeetCode.md",
+    "Templates/文章摘录.md",
+    "Templates",
+    "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
+    "数据结构&算法/题目/142.环形链表 II.md",
+    "数据结构&算法/题目/21.合并两个有序链表.md",
+    "数据结构&算法/题目/86.分隔链表.md",
+    "数据结构&算法/题目/303.区域和检索-数组不可变.md",
+    "数据结构&算法/题目/19.删除链表的倒数第 N 个结点.md",
+    "数据结构&算法/题目/23.合并 k 个升序链表（延后）.md",
+    "数据结构&算法/题目/1109.航班预订统计.md",
+    "数据结构&算法/题目/141.环形链表.md",
+    "数据结构&算法/题目/160.相交链表.md",
+    "数据结构&算法/题目/876.链表的中间结点.md",
+    "数据结构&算法/数据结构/链表.md",
+    "数据结构&算法/数据结构/二叉树.md",
+    "数据结构&算法/数据结构/数组.md",
+    "数据结构&算法/我的刷题心得.md",
+    "数据结构&算法/题目"
   ]
 }
