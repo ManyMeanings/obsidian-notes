@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13e4d20384076c99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构&算法/题目/167.两数之和 II 输入有序数组.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS开发/自动布局.md",
+                "file": "数据结构&算法/题目/167.两数之和 II 输入有序数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS开发/自动布局.md",
+                "file": "数据结构&算法/题目/167.两数之和 II 输入有序数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS开发/自动布局.md"
+                "file": "数据结构&算法/题目/167.两数之和 II 输入有序数组.md"
               }
             }
           },
@@ -171,13 +184,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7547424aa178566b",
+  "active": "13e4d20384076c99",
   "lastOpenFiles": [
+    "数据结构&算法/题目/160.相交链表.md",
+    "数据结构&算法/题目/167.两数之和 II 输入有序数组.md",
+    "数据结构&算法/题目/26.删除有序数组中的重复项.md",
+    "数据结构&算法/算法/双指针.md",
+    "iOS开发/规划.md",
+    "iOS开发/自动布局.md",
+    "生活",
     "数据结构&算法/题目/283.移动零.md",
     "数据结构&算法/题目/27.移除元素.md",
-    "数据结构&算法/题目/26.删除有序数组中的重复项.md",
     "数据结构&算法/题目/83.删除排序链表中的重复元素.md",
-    "数据结构&算法/算法/双指针.md",
     "数据结构&算法/题目/86.分隔链表.md",
     "数据结构&算法/题目/141.环形链表.md",
     "数据结构&算法/题目/876.链表的中间结点.md",
@@ -190,17 +208,13 @@
     "iOS开发/常用代码.md",
     "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
     "Excalidraw/Drawing 2023-08-11 17.16.50.excalidraw.md",
-    "数据结构&算法/题目/160.相交链表.md",
     "Excalidraw",
     "数据结构&算法/题目/19.删除链表的倒数第 N 个结点.md",
     "数据结构&算法/题目/142.环形链表 II.md",
     "README.md",
-    "iOS开发/自动布局.md",
     "数据结构&算法/题目/303.区域和检索-数组不可变.md",
     "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
     "数据结构&算法/题目/1109.航班预订统计.md",
-    "数据结构&算法/算法/前缀和.md",
-    "数据结构&算法/算法/差分数组.md",
     "Attachments/Swift Cheat Sheet [Swift 5].pdf",
     "Attachments/Pasted image 20230803171312.png",
     "Attachments/Pasted image 20230803171126.png",
@@ -212,7 +226,6 @@
     "Attachments/XcodeKeyboardShortcuts.pdf",
     "文章摘录",
     "Attachments",
-    "Attachments/008 12-Rules-to-Learn-to-Code-eBook-Updated-26.11.18.pdf",
-    "Templates"
+    "Attachments/008 12-Rules-to-Learn-to-Code-eBook-Updated-26.11.18.pdf"
   ]
 }
