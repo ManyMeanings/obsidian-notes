@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/5.最长回文子串.md",
+                "file": "数据结构&算法/算法/双指针.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/5.最长回文子串.md",
+                "file": "数据结构&算法/算法/双指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/5.最长回文子串.md",
+                "file": "数据结构&算法/算法/双指针.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/5.最长回文子串.md"
+                "file": "数据结构&算法/算法/双指针.md"
               }
             }
           },
@@ -159,8 +159,8 @@
   },
   "active": "13e4d20384076c99",
   "lastOpenFiles": [
-    "数据结构&算法/算法/双指针.md",
     "数据结构&算法/题目/5.最长回文子串.md",
+    "数据结构&算法/算法/双指针.md",
     "数据结构&算法/题目/167.两数之和 II 输入有序数组.md",
     "数据结构&算法/题目/160.相交链表.md",
     "数据结构&算法/题目/26.删除有序数组中的重复项.md",
