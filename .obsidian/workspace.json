@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/算法/滑动窗口.md",
+                "file": "数据结构&算法/学习算法和刷题的框架思维.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/算法/滑动窗口.md",
+                "file": "数据结构&算法/学习算法和刷题的框架思维.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/算法/滑动窗口.md",
+                "file": "数据结构&算法/学习算法和刷题的框架思维.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/算法/滑动窗口.md"
+                "file": "数据结构&算法/学习算法和刷题的框架思维.md"
               }
             }
           },
@@ -159,8 +159,12 @@
   },
   "active": "3640c9fe02f2eea9",
   "lastOpenFiles": [
-    "数据结构&算法/算法/前缀和.md",
+    "数据结构&算法/我的刷题心得.md",
+    "数据结构&算法/穷举.md",
+    "数据结构&算法/框架.md",
+    "iOS开发/Swift.md",
     "数据结构&算法/算法/滑动窗口.md",
+    "数据结构&算法/算法/前缀和.md",
     "数据结构&算法/算法/差分数组.md",
     "数据结构&算法/题目/76.最小覆盖子串.md",
     "数据结构&算法/题目/3.无重复字符的最长子串.md",
@@ -181,10 +185,6 @@
     "数据结构&算法/题目/876.链表的中间结点.md",
     "iOS开发/常用代码.md",
     "数据结构&算法/算法/双指针.md",
-    "数据结构&算法/题目/5.最长回文子串.md",
-    "数据结构&算法/题目/26.删除有序数组中的重复项.md",
-    "iOS开发/规划.md",
-    "iOS开发/自动布局.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
