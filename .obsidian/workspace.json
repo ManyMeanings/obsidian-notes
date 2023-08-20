@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS开发/常用代码.md",
+                "file": "生活/日本自由行.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS开发/常用代码.md",
+                "file": "生活/日本自由行.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS开发/常用代码.md",
+                "file": "生活/日本自由行.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS开发/常用代码.md"
+                "file": "生活/日本自由行.md"
               }
             }
           },
@@ -172,6 +172,8 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
+    "iOS开发/常用代码.md",
+    "生活/日本自由行.md",
     "数据结构&算法/题目/870.优势洗牌.md",
     "数据结构&算法/题目/1011.在 D 天内送达包裹的能力.md",
     "数据结构&算法/题目/410.分割数组的最大值.md",
@@ -196,8 +198,6 @@
     "数据结构&算法/题目/1109.航班预订统计.md",
     "Templates/LeetCode.md",
     "数据结构&算法/数据结构/字符串.md",
-    "数据结构&算法/题目/27.移除元素.md",
-    "数据结构&算法/题目/83.删除排序链表中的重复元素.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
