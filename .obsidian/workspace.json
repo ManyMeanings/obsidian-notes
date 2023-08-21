@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/算法/递归.md",
+                "file": "数据结构&算法/题目/206.反转链表.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/算法/递归.md",
+                "file": "数据结构&算法/题目/206.反转链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/算法/递归.md",
+                "file": "数据结构&算法/题目/206.反转链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/算法/递归.md"
+                "file": "数据结构&算法/题目/206.反转链表.md"
               }
             }
           },
@@ -170,12 +170,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3640c9fe02f2eea9",
+  "active": "f4a2f33ced225202",
   "lastOpenFiles": [
-    "数据结构&算法/题目/3.无重复字符的最长子串.md",
-    "生活/日本自由行.md",
+    "数据结构&算法/题目/92.反转链表 II.md",
     "数据结构&算法/题目/206.反转链表.md",
     "数据结构&算法/算法/递归.md",
+    "数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "生活/日本自由行.md",
     "iOS开发/常用代码.md",
     "数据结构&算法/题目/870.优势洗牌.md",
     "数据结构&算法/题目/1011.在 D 天内送达包裹的能力.md",
@@ -197,7 +198,6 @@
     "数据结构&算法/框架.md",
     "数据结构&算法/题目/76.最小覆盖子串.md",
     "数据结构&算法/题目/567.字符串的排列.md",
-    "数据结构&算法/题目/1109.航班预订统计.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
