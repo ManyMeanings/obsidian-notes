@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/1541.平衡括号字符串的最少插入次数.md",
+                "file": "生活/日本自由行.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/1541.平衡括号字符串的最少插入次数.md",
+                "file": "生活/日本自由行.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/1541.平衡括号字符串的最少插入次数.md",
+                "file": "生活/日本自由行.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/1541.平衡括号字符串的最少插入次数.md"
+                "file": "生活/日本自由行.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
-    "数据结构&算法/题目/921.使括号有效的最少添加.md",
     "数据结构&算法/题目/1541.平衡括号字符串的最少插入次数.md",
+    "数据结构&算法/题目/921.使括号有效的最少添加.md",
     "数据结构&算法/题目/20.有效的括号.md",
     "数据结构&算法/数据结构/栈.md",
     "数据结构&算法/数据结构/队列.md",
