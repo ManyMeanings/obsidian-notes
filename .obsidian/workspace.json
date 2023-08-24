@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/算法/差分数组.md",
+                "file": "数据结构&算法/题目/239.滑动窗口最大值.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/算法/差分数组.md",
+                "file": "数据结构&算法/题目/239.滑动窗口最大值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/算法/差分数组.md",
+                "file": "数据结构&算法/题目/239.滑动窗口最大值.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/算法/差分数组.md"
+                "file": "数据结构&算法/题目/239.滑动窗口最大值.md"
               }
             }
           },
@@ -159,9 +159,10 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
+    "数据结构&算法/算法/差分数组.md",
+    "数据结构&算法/题目/239.滑动窗口最大值.md",
     "数据结构&算法/题目/303.区域和检索-数组不可变.md",
     "数据结构&算法/算法/前缀和.md",
-    "数据结构&算法/算法/差分数组.md",
     "数据结构&算法/算法/滑动窗口.md",
     "数据结构&算法/数据结构/队列.md",
     "数据结构&算法/数据结构/栈.md",
@@ -184,7 +185,6 @@
     "数据结构&算法/题目/870.优势洗牌.md",
     "数据结构&算法/题目/1011.在 D 天内送达包裹的能力.md",
     "数据结构&算法/算法/二分搜索.md",
-    "数据结构&算法/算法/双指针.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
