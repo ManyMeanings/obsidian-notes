@@ -52,4 +52,21 @@ switch a {
 	default:
 		// do something
 }
+
+// 自定义结构
+struct MyStruct {
+	let a: String
+	var b: Number
+	
+	init(a: String, b: Number) {
+		self.a = a
+		self.b = b
+	}
+
+	 func doSomething() {
+		 //...
+	 }	
+}
+var myStruct = MyStruct(a: "hello", b: 0)
+print(myStruct.b) // "hello world"
 ```
