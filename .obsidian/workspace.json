@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/数据结构/二叉树.md",
+                "file": "数据结构&算法/算法/BFS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/数据结构/二叉树.md",
+                "file": "数据结构&算法/算法/BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/数据结构/二叉树.md",
+                "file": "数据结构&算法/算法/BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/数据结构/二叉树.md"
+                "file": "数据结构&算法/算法/BFS.md"
               }
             }
           },
@@ -159,10 +159,15 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
+    "数据结构&算法/数据结构/二叉树.md",
+    "数据结构&算法/算法/BFS.md",
+    "数据结构&算法/算法/动态规划.md",
+    "数据结构&算法/算法/DFS.md",
+    "数据结构&算法/算法/回溯.md",
+    "数据结构&算法/题目/543.二叉树的直径.md",
     "数据结构&算法/题目/104.二叉树的最大深度.md",
     "iOS开发/Swift 语法.md",
     "生活/日本自由行.md",
-    "数据结构&算法/数据结构/二叉树.md",
     "数据结构&算法/数据结构/队列.md",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
@@ -182,11 +187,6 @@
     "数据结构&算法/题目/20.有效的括号.md",
     "数据结构&算法/题目/92.反转链表 II.md",
     "数据结构&算法/题目/83.删除排序链表中的重复元素.md",
-    "数据结构&算法/题目/206.反转链表.md",
-    "数据结构&算法/算法/递归.md",
-    "数据结构&算法/题目/3.无重复字符的最长子串.md",
-    "iOS开发/常用代码.md",
-    "数据结构&算法/题目/870.优势洗牌.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
