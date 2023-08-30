@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/算法/BFS.md",
+                "file": "数据结构&算法/数据结构/二叉树.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/算法/BFS.md",
+                "file": "数据结构&算法/数据结构/二叉树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/算法/BFS.md",
+                "file": "数据结构&算法/数据结构/二叉树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/算法/BFS.md"
+                "file": "数据结构&算法/数据结构/二叉树.md"
               }
             }
           },
@@ -157,8 +157,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f4a2f33ced225202",
+  "active": "3640c9fe02f2eea9",
   "lastOpenFiles": [
+    "数据结构&算法/题目/116.填充每个节点的下一个右侧节点指针.md",
     "数据结构&算法/数据结构/二叉树.md",
     "数据结构&算法/算法/BFS.md",
     "数据结构&算法/算法/动态规划.md",
@@ -186,7 +187,6 @@
     "数据结构&算法/题目/921.使括号有效的最少添加.md",
     "数据结构&算法/题目/20.有效的括号.md",
     "数据结构&算法/题目/92.反转链表 II.md",
-    "数据结构&算法/题目/83.删除排序链表中的重复元素.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
