@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
+                "file": "iOS开发/MVC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
+                "file": "iOS开发/MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
+                "file": "iOS开发/MVC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md"
+                "file": "iOS开发/MVC.md"
               }
             }
           },
@@ -159,9 +159,11 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
+    "iOS开发/常用代码.md",
+    "iOS开发/MVC.md",
+    "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
     "Attachments/Pasted image 20230831115319.png",
     "数据结构&算法/题目/105.从前序与中序遍历序列构造二叉树.md",
-    "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
     "数据结构&算法/题目/654.最大二叉树.md",
     "数据结构&算法/题目/114.二叉树展开为链表.md",
     "数据结构&算法/数据结构/二叉树.md",
@@ -186,7 +188,6 @@
     "数据结构&算法/数据结构/栈.md",
     "数据结构&算法/题目/503.下一个更大元素-ii.md",
     "数据结构&算法/题目/739.每日温度.md",
-    "数据结构&算法/题目/496.下一个更大元素 I.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
