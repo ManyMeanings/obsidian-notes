@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS开发/MVC.md",
+                "file": "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS开发/MVC.md",
+                "file": "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS开发/MVC.md",
+                "file": "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS开发/MVC.md"
+                "file": "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md"
               }
             }
           },
@@ -159,8 +159,11 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
-    "iOS开发/常用代码.md",
+    "数据结构&算法/数据结构/BST.md",
+    "数据结构&算法/算法/BFS.md",
+    "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
     "iOS开发/MVC.md",
+    "iOS开发/常用代码.md",
     "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
     "Attachments/Pasted image 20230831115319.png",
     "数据结构&算法/题目/105.从前序与中序遍历序列构造二叉树.md",
@@ -168,7 +171,6 @@
     "数据结构&算法/题目/114.二叉树展开为链表.md",
     "数据结构&算法/数据结构/二叉树.md",
     "数据结构&算法/题目/116.填充每个节点的下一个右侧节点指针.md",
-    "数据结构&算法/算法/BFS.md",
     "数据结构&算法/算法/动态规划.md",
     "数据结构&算法/算法/DFS.md",
     "数据结构&算法/算法/回溯.md",
@@ -186,8 +188,6 @@
     "数据结构&算法/算法/前缀和.md",
     "数据结构&算法/算法/滑动窗口.md",
     "数据结构&算法/数据结构/栈.md",
-    "数据结构&算法/题目/503.下一个更大元素-ii.md",
-    "数据结构&算法/题目/739.每日温度.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
