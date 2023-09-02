@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS开发/Learn Swift in Y minutes.md",
-                "mode": "preview",
+                "file": "数据结构&算法/数据结构/BST.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS开发/Learn Swift in Y minutes.md",
+                "file": "数据结构&算法/数据结构/BST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS开发/Learn Swift in Y minutes.md",
+                "file": "数据结构&算法/数据结构/BST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS开发/Learn Swift in Y minutes.md"
+                "file": "数据结构&算法/数据结构/BST.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
-    "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
+    "数据结构&算法/题目/98.验证二叉搜索树.md",
     "数据结构&算法/数据结构/BST.md",
+    "iOS开发/Learn Swift in Y minutes.md",
+    "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
     "数据结构&算法/算法/BFS.md",
     "iOS开发/MVC.md",
     "iOS开发/常用代码.md",
@@ -176,7 +178,6 @@
     "数据结构&算法/算法/回溯.md",
     "数据结构&算法/题目/543.二叉树的直径.md",
     "数据结构&算法/题目/104.二叉树的最大深度.md",
-    "iOS开发/Learn Swift in Y minutes.md",
     "生活/日本自由行.md",
     "数据结构&算法/数据结构/队列.md",
     "Attachments/Pasted image 20230825133726.png",
@@ -187,7 +188,6 @@
     "数据结构&算法/题目/303.区域和检索-数组不可变.md",
     "数据结构&算法/算法/前缀和.md",
     "数据结构&算法/算法/滑动窗口.md",
-    "数据结构&算法/数据结构/栈.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
