@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/数据结构/BST.md",
+                "file": "数据结构&算法/数据结构/图.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/数据结构/BST.md",
+                "file": "数据结构&算法/数据结构/图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/数据结构/BST.md",
+                "file": "数据结构&算法/数据结构/图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/数据结构/BST.md"
+                "file": "数据结构&算法/数据结构/图.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
-    "数据结构&算法/题目/98.验证二叉搜索树.md",
+    "数据结构&算法/题目/797.所有可能的路径.md",
+    "数据结构&算法/数据结构/图.md",
     "数据结构&算法/数据结构/BST.md",
+    "数据结构&算法/题目/98.验证二叉搜索树.md",
     "iOS开发/Learn Swift in Y minutes.md",
     "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
     "数据结构&算法/算法/BFS.md",
@@ -186,8 +188,6 @@
     "数据结构&算法/题目/239.滑动窗口最大值.md",
     "数据结构&算法/算法/差分数组.md",
     "数据结构&算法/题目/303.区域和检索-数组不可变.md",
-    "数据结构&算法/算法/前缀和.md",
-    "数据结构&算法/算法/滑动窗口.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
