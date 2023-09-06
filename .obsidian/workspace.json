@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/51.N 皇后.md",
+                "file": "数据结构&算法/题目/39.组合总和.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/51.N 皇后.md",
+                "file": "数据结构&算法/题目/39.组合总和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/51.N 皇后.md",
+                "file": "数据结构&算法/题目/39.组合总和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/51.N 皇后.md"
+                "file": "数据结构&算法/题目/39.组合总和.md"
               }
             }
           },
@@ -159,6 +159,11 @@
   },
   "active": "f4a2f33ced225202",
   "lastOpenFiles": [
+    "数据结构&算法/题目/47.全排列 II.md",
+    "数据结构&算法/题目/39.组合总和.md",
+    "数据结构&算法/题目/90.子集 II.md",
+    "数据结构&算法/题目/77.组合.md",
+    "数据结构&算法/题目/78.子集.md",
     "数据结构&算法/算法/回溯.md",
     "数据结构&算法/题目/51.N 皇后.md",
     "数据结构&算法/题目/46.全排列.md",
@@ -181,13 +186,8 @@
     "数据结构&算法/算法/动态规划.md",
     "数据结构&算法/算法/DFS.md",
     "数据结构&算法/题目/543.二叉树的直径.md",
-    "数据结构&算法/题目/104.二叉树的最大深度.md",
-    "生活/日本自由行.md",
-    "数据结构&算法/数据结构/队列.md",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
-    "数据结构&算法/数据结构/数组.md",
-    "数据结构&算法/题目/239.滑动窗口最大值.md",
     "生活",
     "未命名.canvas",
     "Excalidraw",
