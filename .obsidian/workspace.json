@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f9f5b9bd51c6d130",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f4a2f33ced225202",
+  "active": "f9f5b9bd51c6d130",
   "lastOpenFiles": [
     "数据结构&算法/题目/47.全排列 II.md",
     "数据结构&算法/题目/39.组合总和.md",
