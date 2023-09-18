@@ -37,9 +37,12 @@
             "id": "5123c616bb6ce108",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "数据结构&算法/算法/BFS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -110,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/算法/回溯.md",
+                "file": "数据结构&算法/算法/BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/算法/回溯.md",
+                "file": "数据结构&算法/算法/BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/算法/回溯.md"
+                "file": "数据结构&算法/算法/BFS.md"
               }
             }
           },
@@ -193,8 +196,12 @@
   },
   "active": "5123c616bb6ce108",
   "lastOpenFiles": [
-    "数据结构&算法/算法/DFS.md",
+    "数据结构&算法/题目/111.二叉树的最小深度.md",
     "数据结构&算法/算法/BFS.md",
+    "数据结构&算法/算法/DFS.md",
+    "数据结构&算法/算法/回溯.md",
+    "数据结构&算法/算法/前缀和.md",
+    "数据结构&算法/算法/双指针.md",
     "数据结构&算法/算法/动态规划.md",
     "生活/日本自由行.md",
     "数据结构&算法/题目/698.划分为k个相等的子集.md",
@@ -203,7 +210,6 @@
     "数据结构&算法/题目/90.子集 II.md",
     "数据结构&算法/题目/77.组合.md",
     "数据结构&算法/题目/78.子集.md",
-    "数据结构&算法/算法/回溯.md",
     "数据结构&算法/题目/51.N 皇后.md",
     "数据结构&算法/题目/46.全排列.md",
     "数据结构&算法/数据结构/图.md",
@@ -217,9 +223,6 @@
     "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
     "Attachments/Pasted image 20230831115319.png",
     "数据结构&算法/题目/105.从前序与中序遍历序列构造二叉树.md",
-    "数据结构&算法/题目/654.最大二叉树.md",
-    "数据结构&算法/题目/114.二叉树展开为链表.md",
-    "数据结构&算法/数据结构/二叉树.md",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
     "生活",
