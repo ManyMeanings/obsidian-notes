@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活/日本自由行.md",
+                "file": "数据结构&算法/算法/回溯.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "5123c616bb6ce108",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活/日本自由行.md",
+                "file": "数据结构&算法/算法/回溯.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活/日本自由行.md",
+                "file": "数据结构&算法/算法/回溯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活/日本自由行.md"
+                "file": "数据结构&算法/算法/回溯.md"
               }
             }
           },
@@ -150,6 +160,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "debfbc6279fff011",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -171,8 +191,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f9f5b9bd51c6d130",
+  "active": "5123c616bb6ce108",
   "lastOpenFiles": [
+    "数据结构&算法/算法/DFS.md",
+    "数据结构&算法/算法/BFS.md",
+    "数据结构&算法/算法/动态规划.md",
+    "生活/日本自由行.md",
     "数据结构&算法/题目/698.划分为k个相等的子集.md",
     "数据结构&算法/题目/47.全排列 II.md",
     "数据结构&算法/题目/39.组合总和.md",
@@ -188,7 +212,6 @@
     "数据结构&算法/题目/98.验证二叉搜索树.md",
     "iOS开发/Learn Swift in Y minutes.md",
     "数据结构&算法/题目/538.把二叉搜索树转换为累加树.md",
-    "数据结构&算法/算法/BFS.md",
     "iOS开发/MVC.md",
     "iOS开发/常用代码.md",
     "数据结构&算法/题目/889.根据前序和后序遍历构造二叉树.md",
@@ -197,9 +220,6 @@
     "数据结构&算法/题目/654.最大二叉树.md",
     "数据结构&算法/题目/114.二叉树展开为链表.md",
     "数据结构&算法/数据结构/二叉树.md",
-    "数据结构&算法/题目/116.填充每个节点的下一个右侧节点指针.md",
-    "数据结构&算法/算法/动态规划.md",
-    "数据结构&算法/算法/DFS.md",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
     "生活",
