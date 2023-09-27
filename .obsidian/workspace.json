@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/算法/动态规划.md",
+                "file": "数据结构&算法/算法/二分搜索.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/算法/动态规划.md",
+                "file": "数据结构&算法/算法/二分搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/算法/动态规划.md",
+                "file": "数据结构&算法/算法/二分搜索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/算法/动态规划.md"
+                "file": "数据结构&算法/算法/二分搜索.md"
               }
             }
           },
@@ -167,10 +167,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3640c9fe02f2eea9",
+  "active": "5123c616bb6ce108",
   "lastOpenFiles": [
-    "数据结构&算法/题目/931.下降路径最小和.md",
+    "数据结构&算法/题目/300.最长递增子序列.md",
     "数据结构&算法/算法/动态规划.md",
+    "数据结构&算法/题目/931.下降路径最小和.md",
     "数据结构&算法/题目/[.md",
     "数据结构&算法/算法/DFS.md",
     "数据结构&算法/题目/322.零钱兑换.md",
@@ -194,7 +195,6 @@
     "数据结构&算法/数据结构/图.md",
     "数据结构&算法/题目/797.所有可能的路径.md",
     "数据结构&算法/数据结构/BST.md",
-    "数据结构&算法/题目/98.验证二叉搜索树.md",
     "Attachments/Pasted image 20230831115319.png",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
