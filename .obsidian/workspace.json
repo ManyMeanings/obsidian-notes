@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bba3526bf2dbb8d9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +178,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5123c616bb6ce108",
+  "active": "bba3526bf2dbb8d9",
   "lastOpenFiles": [
     "数据结构&算法/算法/动态规划.md",
     "数据结构&算法/算法/二分搜索.md",
