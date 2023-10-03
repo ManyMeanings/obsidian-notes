@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
+                "file": "数据结构&算法/题目/53.最大子数组和.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
+                "file": "数据结构&算法/题目/53.最大子数组和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
+                "file": "数据结构&算法/题目/53.最大子数组和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/354.俄罗斯套娃信封问题.md"
+                "file": "数据结构&算法/题目/53.最大子数组和.md"
               }
             }
           },
@@ -183,8 +183,9 @@
   },
   "active": "bba3526bf2dbb8d9",
   "lastOpenFiles": [
-    "数据结构&算法/题目/二分查找.md",
     "数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
+    "数据结构&算法/题目/53.最大子数组和.md",
+    "数据结构&算法/题目/二分查找.md",
     "数据结构&算法/算法/动态规划.md",
     "数据结构&算法/算法/二分搜索.md",
     "数据结构&算法/题目/300.最长递增子序列.md",
@@ -208,7 +209,6 @@
     "数据结构&算法/题目/90.子集 II.md",
     "数据结构&算法/题目/77.组合.md",
     "数据结构&算法/题目/78.子集.md",
-    "数据结构&算法/题目/51.N 皇后.md",
     "Attachments/Pasted image 20230831115319.png",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
