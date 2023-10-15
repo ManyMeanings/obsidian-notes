@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/题目/518.零钱兑换 II.md",
+                "file": "生活/Final Cut Pro 基础操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "f685ab00a9a83438",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/题目/518.零钱兑换 II.md",
+                "file": "生活/Final Cut Pro 基础操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/题目/518.零钱兑换 II.md",
+                "file": "生活/Final Cut Pro 基础操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/题目/518.零钱兑换 II.md"
+                "file": "生活/Final Cut Pro 基础操作.md"
               }
             }
           },
@@ -181,10 +191,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bba3526bf2dbb8d9",
+  "active": "f685ab00a9a83438",
   "lastOpenFiles": [
-    "数据结构&算法/题目/300.最长递增子序列.md",
+    "数据结构&算法/题目/未命名.md",
+    "生活/Final Cut Pro 基础操作.md",
     "数据结构&算法/题目/518.零钱兑换 II.md",
+    "数据结构&算法/题目/300.最长递增子序列.md",
     "数据结构&算法/题目/416.分割等和子集.md",
     "数据结构&算法/题目/53.最大子数组和.md",
     "数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
@@ -207,8 +219,6 @@
     "生活/日本自由行.md",
     "数据结构&算法/题目/698.划分为k个相等的子集.md",
     "数据结构&算法/题目/47.全排列 II.md",
-    "数据结构&算法/题目/39.组合总和.md",
-    "数据结构&算法/题目/90.子集 II.md",
     "Attachments/Pasted image 20230831115319.png",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
