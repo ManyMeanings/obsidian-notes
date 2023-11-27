@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/数据结构/数组.md",
+                "file": "2.数据结构&算法/数据结构/数组.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/技术面试指导.md",
+                "file": "2.数据结构&算法/技术面试指导.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md",
+                "file": "3.前端开发/JavaScript 基础.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md",
+                "file": "3.前端开发/JavaScript 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md",
+                "file": "3.前端开发/JavaScript 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构&算法/数据结构/链表.md"
+                "file": "3.前端开发/JavaScript 基础.md"
               }
             }
           },
@@ -196,52 +196,52 @@
   },
   "active": "2df6b1d18a868945",
   "lastOpenFiles": [
-    "数据结构&算法/题目/48.旋转图像.md",
-    "数据结构&算法/题目/3.无重复字符的最长子串.md",
-    "数据结构&算法/技术面试指导.md",
-    "数据结构&算法/算法/散列表.md",
+    "Attachments/Pasted image 20231127153439.png",
+    "1.工具&技能/Final Cut Pro.md",
+    "3.前端开发/JavaScript 基础.md",
+    "生活/日本自由行.md",
+    "2.数据结构&算法/数据结构/链表.md",
+    "3.前端开发",
+    "2.数据结构&算法/题目/48.旋转图像.md",
+    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "2.数据结构&算法/技术面试指导.md",
+    "2.数据结构&算法/算法/散列表.md",
     "Attachments/Pasted image 20231124101718.png",
-    "数据结构&算法/数据结构/数组.md",
-    "数据结构&算法/数据结构/字符串.md",
-    "数据结构&算法/题目/300.最长递增子序列.md",
+    "2.数据结构&算法/数据结构/数组.md",
+    "2.数据结构&算法/数据结构/字符串.md",
+    "2.数据结构&算法/题目/300.最长递增子序列.md",
     "Attachments/Pasted image 20231112151930.png",
     "Attachments/Pasted image 20231112151808.png",
-    "数据结构&算法/时间复杂度.md",
+    "2.数据结构&算法/时间复杂度.md",
     "Attachments/Pasted image 20231110105506.png",
-    "数据结构&算法/《程序员面试金典（第6版）》笔记.md",
-    "数据结构&算法/学习算法和刷题的框架思维.md",
-    "数据结构&算法/我的刷题心得.md",
-    "数据结构&算法/穷举.md",
-    "数据结构&算法/框架.md",
-    "生活/Final Cut Pro 基础操作.md",
-    "生活/日本自由行.md",
-    "数据结构&算法/题目/518.零钱兑换 II.md",
-    "数据结构&算法/题目/416.分割等和子集.md",
-    "数据结构&算法/题目/53.最大子数组和.md",
-    "数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
+    "2.数据结构&算法/《程序员面试金典（第6版）》笔记.md",
+    "2.数据结构&算法/学习算法和刷题的框架思维.md",
+    "2.数据结构&算法/我的刷题心得.md",
+    "2.数据结构&算法/穷举.md",
+    "2.数据结构&算法/框架.md",
+    "2.数据结构&算法/题目/518.零钱兑换 II.md",
+    "2.数据结构&算法/题目/416.分割等和子集.md",
+    "2.数据结构&算法/题目/53.最大子数组和.md",
+    "2.数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
     "数据结构&算法/题目/二分查找.md",
-    "数据结构&算法/算法/动态规划.md",
-    "数据结构&算法/算法/二分搜索.md",
-    "数据结构&算法/数据结构/二叉树.md",
-    "数据结构&算法/题目/931.下降路径最小和.md",
-    "数据结构&算法/题目/[.md",
-    "数据结构&算法/算法/DFS.md",
+    "2.数据结构&算法/算法/动态规划.md",
+    "2.数据结构&算法/算法/二分搜索.md",
+    "2.数据结构&算法/数据结构/二叉树.md",
     "Attachments/Pasted image 20230831115319.png",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
-    "生活",
+    "1.工具&技能",
     "未命名.canvas",
     "Excalidraw",
     "Attachments/Swift Cheat Sheet [Swift 5].pdf",
     "Attachments/Pasted image 20230803171312.png",
     "Attachments/Pasted image 20230803171126.png",
     "Attachments/Pasted image 20230802170859.png",
-    "数据结构&算法/题目",
-    "数据结构&算法/算法",
-    "数据结构&算法/数据结构",
+    "2.数据结构&算法/题目",
+    "2.数据结构&算法/算法",
+    "2.数据结构&算法/数据结构",
     "Attachments/XcodeKeyboardShortcuts.pdf",
-    "文章摘录",
-    "Attachments",
-    "Attachments/008 12-Rules-to-Learn-to-Code-eBook-Updated-26.11.18.pdf"
+    "5.文章摘录",
+    "Attachments"
   ]
 }
