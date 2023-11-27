@@ -86,4 +86,10 @@ x = y = 20 - 10 // x = 10, y = 10
 | conditional            | `?:`                                      |
 | assignment             | `= += -= *= /= %= <<= >>= >>>= &= ^= \|=` |
 | comma                  | `,`                                       |
-### 
+### 假值
+
+**假值**（**falsy**，有时写为 **falsey**）是在 Boolean上下文中认定为 false 的值。
+
+JavaScript在需要用到布尔类型值的上下文中使用强制类型转换将值转换为布尔值，例如条件语句。
+
+5个假值：0，''，undefined，null，NaN
