@@ -93,3 +93,21 @@ x = y = 20 - 10 // x = 10, y = 10
 JavaScript在需要用到布尔类型值的上下文中使用强制类型转换将值转换为布尔值，例如条件语句。
 
 5个假值：0，''，undefined，null，NaN
+
+### 函数
+
+```js
+// 函数声明
+function calc() {
+ return true;
+}
+
+// 函数表达式/匿名函数
+// 无法在声明之前调用
+const calc = function () {
+	return true
+}
+
+// 箭头函数
+const calc = test => true
+```
