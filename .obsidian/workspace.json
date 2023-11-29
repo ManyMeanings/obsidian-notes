@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.前端开发/JavaScript 基础.md",
+                "file": "2.数据结构&算法/数据结构/二叉树.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 基础.md",
+                "file": "2.数据结构&算法/数据结构/二叉树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 基础.md",
+                "file": "2.数据结构&算法/数据结构/二叉树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 基础.md"
+                "file": "2.数据结构&算法/数据结构/二叉树.md"
               }
             }
           },
@@ -183,12 +183,13 @@
   },
   "active": "2df6b1d18a868945",
   "lastOpenFiles": [
+    "2.数据结构&算法/题目/栈的最小值.md",
+    "3.前端开发/JavaScript 基础.md",
     "2.数据结构&算法/题目/142.环形链表 II.md",
     "2.数据结构&算法/数据结构/链表.md",
     "2.数据结构&算法/题目/141.环形链表.md",
     "2.数据结构&算法/数据结构/数组.md",
     "2.数据结构&算法/题目/160.相交链表.md",
-    "3.前端开发/JavaScript 基础.md",
     "Attachments/Pasted image 20231127153439.png",
     "1.工具&技能/Final Cut Pro.md",
     "生活/日本自由行.md",
@@ -214,7 +215,6 @@
     "2.数据结构&算法/题目/53.最大子数组和.md",
     "2.数据结构&算法/题目/354.俄罗斯套娃信封问题.md",
     "数据结构&算法/题目/二分查找.md",
-    "2.数据结构&算法/算法/动态规划.md",
     "Attachments/Pasted image 20230831115319.png",
     "Attachments/Pasted image 20230825133726.png",
     "Attachments/Pasted image 20230825133257.png",
