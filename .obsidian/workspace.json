@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.数据结构&算法/算法/排序.md",
+                "file": "3.前端开发/JavaScript 基础.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.数据结构&算法/算法/排序.md",
+                "file": "3.前端开发/JavaScript 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.数据结构&算法/算法/排序.md",
+                "file": "3.前端开发/JavaScript 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.数据结构&算法/算法/排序.md"
+                "file": "3.前端开发/JavaScript 基础.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "2df6b1d18a868945",
   "lastOpenFiles": [
-    "2.数据结构&算法/算法/查找.md",
     "2.数据结构&算法/算法/排序.md",
+    "2.数据结构&算法/算法/查找.md",
     "2.数据结构&算法/算法/动态规划.md",
     "2.数据结构&算法/算法/递归.md",
     "2.数据结构&算法/算法/差分数组.md",
