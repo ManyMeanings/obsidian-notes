@@ -14,4 +14,12 @@ function getObj({ foo, bar }) {
     return [foo, bar];
 }
 getObj(obj); // [1,2]
+
+// 4.使用展开运算符浅拷贝数组/合并数组/浅拷贝对象
+const arr = [1, 2, 3];
+const copyArr = [...arr];
+const newArr = [...arr, ...copyArr];
+const obj = { a: 1};
+const copyObj = { ...obj }
+
 ```
