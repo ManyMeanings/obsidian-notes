@@ -47,8 +47,7 @@ JavaScript在执行代码时，会将同步的代码按照顺序排在执行栈�
 
 ### this 关键字
 
-`this` 的值取决于它出现的上下文：函数、类或全局。
-#### 函数上下文
+#### 函数上下文中的 this 指向
 
 - 作为对象的方法被调用时，指向被访问的对象；
 - 常规函数调用，this的值为undefined
@@ -57,6 +56,31 @@ JavaScript在执行代码时，会将同步的代码按照顺序排在执行栈�
 - 在构造函数中，指向正在构造的新对象上（除非构造函数返回另一个非原始值）
 - 以 `super.method()` 的形式被调用时，`method` 函数内的 `this` 与 `super.method()` 调用周围的 `this` 值相同
 
+#### 改变 this 指向
+
+在常规函数调用时， this 总是为 undefined，有时候需要将它手动绑定到一个特定对象上来取值。
+
+```js
+const fn = function (greet) {
+    console.log(`${greet},${this.name}`);
+};
+
+const person = {
+    name: "tao",
+};
+
+// call
+// 传入 this 绑定的对象和函数的参数
+fn.call(person, "hello"); // hello,tao
+
+// apply
+// 传入 this 绑定的对象和函数的参数组成的数组
+fn.apply(person, ["hello"]); // hello,tao
+// 可以用 call 做到相同的事情
+fn.call(person, ...["hello"]); // hello,tao
+
+
+```
 
 ### 变量提升
 

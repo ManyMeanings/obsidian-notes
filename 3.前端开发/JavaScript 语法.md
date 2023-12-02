@@ -260,6 +260,29 @@ const calc = function () {
 // 箭头函数
 // 不存在 arguments 关键字
 const calc = test => true
+
+// 参数默认值
+function clac(param1 = 1, param2 = param1 * 2) {}
+
+// 对引用类型参数的修改会影响传入的外部参数
+const obj = { a: 1 };
+function change(param) {
+	param.a = 2;
+}
+change(obj);
+obj // { a: 2 } 
+
+// 函数的 name 属性
+clac.name; // 'calc'
+
+// 高阶函数：把函数作为参数传入
+// 委托处理
+function clac(num1, num2, fn) {
+	return fn(num1, num2); 
+}
+
+
+
 ```
 
 ### 变量的解构赋值
