@@ -85,6 +85,14 @@ const obj2 = { ...obj };
 const s = 'hello';
 const arr2 = [...s]; // arr2 = [h,e,l,l,0]
 
+// 链判断运算符
+// 左侧对象为 null 或 undefined 时直接返回 undefined
+const firstName = message?.body?.user?.firstName || 'default';
+// 属性表达式
+obj?.[expr]
+// 判断对象方法是否存在
+obj.clac?.();
+
 // 短路运算符
 // 返回第一个真值，若全为假值，则返回最后一个
 undefined || null // null
@@ -123,6 +131,117 @@ x = y = 20 - 10 // x = 10, y = 10
 | conditional            | `?:`                                      |
 | assignment             | `= += -= *= /= %= <<= >>= >>>= &= ^= \|=` |
 | comma                  | `,`                                       |
+
+### 字符串
+
+对字符串调用方法时，javascript会将其转换为字符串对象，处理完后再转回字符串。
+
+```js
+const str = 'abcde';
+
+str[1]; // b
+str[1] = c; // 不生效，无法直接通过索引访问改变字符串
+```
+### 对象
+
+#### 简写
+
+```js
+// 属性名简写
+const foo = 'bar';
+const baz = {foo};
+baz // {foo: "bar"}
+
+// 方法简写
+const o = {
+  method() {
+    return "Hello!";
+  }
+};
+```
+
+#### 属性名表达式
+
+```javascript
+let lastWord = 'last word';
+
+const a = {
+  'first word': 'hello',
+  [lastWord]: 'world',
+  ['h' + 'ello']() {
+    return 'hi';
+  }
+};
+
+a['first word'] // "hello"
+a[lastWord] // "world"
+a['last word'] // "world"
+a.hello() // hi
+```
+
+### Set
+
+类似于数组，但是成员的值都是唯一的，没有重复的值。
+
+`Set`构造函数可以接受一个数组（或者具有 iterable 接口的其他数据结构）作为参数，用来初始化。
+
+```javascript
+const set = new Set([1, 2, 3, 4, 4]);
+[...set]; // [1, 2, 3, 4]
+set.size // 4
+
+set.add(1); // 返回当前set对象
+set.has(1); // true
+set.delete(1); // true
+set.clear();
+
+for (let x of set) {
+  console.log(x); // 1 2 3 4
+}
+```
+
+#### WeakSet
+
+WeakSet 结构与 Set 类似，也是不重复的值的集合。但是，WeakSet 的成员只能是对象和 Symbol 值，而不能是其他类型的值。
+
+WeakSet 中的对象都是弱引用，即垃圾回收机制不考虑 WeakSet 对该对象的引用，也就是说，如果其他对象都不再引用该对象，那么垃圾回收机制会自动回收该对象所占用的内存，不考虑该对象还存在于 WeakSet 之中。因此，WeakSet 适合临时存放一组对象，以及存放跟对象绑定的信息。只要这些对象在外部消失，它在 WeakSet 里面的引用就会自动消失。
+
+另外，由于 WeakSet 内部有多少个成员，取决于垃圾回收机制有没有运行，运行前后很可能成员个数是不一样的，而垃圾回收机制何时运行是不可预测的，因此 ES6 规定 WeakSet 不可遍历。
+
+### Map
+
+类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键。
+
+```js
+const map = new Map([
+  ['name', '张三'],
+  ['title', 'Author']
+]);
+
+map.size; // 2
+map.has('name'); // true
+map.get('name'); // 张三
+map.set('age', 25); // 返回当前map对象
+map.delete('age'); // true
+map.clear();
+
+for (let key of map.keys()) {} // 遍历键
+
+for (let value of map.values()) {} // 遍历值
+
+// 等同于使用map.entries()
+for (let [key, value] of map) {} // 遍历键值对
+
+// 对象转为 Map
+let map = new Map(Object.entries(obj));
+// Map 转为 Array
+let arr = [...map];
+
+```
+
+#### WeakMap
+
+只接受对象（`null`除外）和 Symbol 值作为键名，不接受其他类型的值作为键名。键名所指向的对象，不计入垃圾回收机制。
 
 ### 函数
 
@@ -188,4 +307,89 @@ const obj2 = {
   ]
 };
 let { p: [x, { y }] } = obj2; // x = 'Hello', y = 'World'
+```
+
+### Iterator
+
+遍历器（Iterator）是一种接口，为各种不同的数据结构提供统一的访问机制。任何数据结构只要部署 Iterator 接口，就可以完成遍历操作（即依次处理该数据结构的所有成员）。
+
+```js
+interface Iterable {
+  [Symbol.iterator]() : Iterator,
+}
+
+interface Iterator {
+  next(value?: any) : IterationResult,
+}
+
+interface IterationResult {
+  value: any,
+  done: boolean,
+}
+```
+
+一个数据结构只要具有`Symbol.iterator`属性，就可以认为是“可遍历的”（iterable）。`Symbol.iterator`属性本身是一个函数，就是当前数据结构默认的遍历器生成函数。执行这个函数，就会返回一个遍历器。至于属性名`Symbol.iterator`，它是一个表达式，返回`Symbol`对象的`iterator`属性，这是一个预定义好的、类型为 Symbol 的特殊值，所以要放在方括号内。
+
+```js
+const obj = {
+  [Symbol.iterator] : function () {
+    return {
+      next: function () {
+        return {
+          value: 1,
+          done: true
+        };
+      }
+    };
+  }
+};
+obj[Symbol.iterator]().next(); // { value: 1, done: true }
+// Generator 函数的简单实现
+let myIterable = {
+  [Symbol.iterator]: function* () {
+    yield 1;
+    yield 2;
+    yield 3;
+  }
+};
+[...myIterable] // [1, 2, 3]
+```
+
+原生具备遍历器接口的数据结构：
+- Array
+- Map
+- Set
+- String
+- TypedArray
+- 函数的 arguments 对象
+- NodeList 对象
+#### for...of
+
+一个数据结构只要部署了`Symbol.iterator`属性，就被视为具有 iterator 接口，就可以用`for...of`循环遍历它的成员。
+
+```js
+// 数组
+var arr = ['a', 'b', 'c', 'd'];
+
+for (let a in arr) {
+  console.log(a); // 0 1 2 3
+}
+
+for (let a of arr) {
+  console.log(a); // a b c d
+}
+
+// 对象
+const obj = {
+	a: 0,
+	b: 1
+	c: 2
+}
+for (const key of Object.keys(obj)) {
+	console.log(key); // a b c
+}
+for (const value of Object.values(obj)) {
+	console.log(value); // 0 1 2
+}
+
 ```

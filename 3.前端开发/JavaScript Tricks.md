@@ -6,7 +6,7 @@ let x = 1,
 
 // 2.数组去重
 const arr = [1, 2, 2, 'abc', 'abc', true, true, false, false, undefined, undefined, NaN, NaN];
-const result = Array.from(new Set(arr)); // [ 1, 2, 'abc', true, false, undefined, NaN ]
+const result = [...new Set(arr)]; // [ 1, 2, 'abc', true, false, undefined, NaN ]
 
 // 3.立即解构作为参数传入函数的对象
 const obj = { foo: 1, bar: 2 };
@@ -21,5 +21,9 @@ const copyArr = [...arr];
 const newArr = [...arr, ...copyArr];
 const obj = { a: 1};
 const copyObj = { ...obj }
+
+// 5.遍历数组和对象
+for (const [index, item] of arr.entries()) {}
+for (const [key, value] of Object.entries(obj)) {}
 
 ```
