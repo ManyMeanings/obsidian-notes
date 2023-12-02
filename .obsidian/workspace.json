@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/算法/排序.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/算法/排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/算法/排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md"
+                "file": "2.数据结构&算法/算法/排序.md"
               }
             }
           },
@@ -169,10 +169,14 @@
   },
   "active": "2df6b1d18a868945",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20231202095533.png",
+    "Attachments/Pasted image 20231202095521.png",
+    "Attachments/Pasted image 20231202095417.png",
+    "Attachments/Pasted image 20231202095110.png",
+    "3.前端开发/JavaScript 常用方法实现.md",
+    "3.前端开发/JavaScript 语法.md",
     "3.前端开发/JavaScript Tricks.md",
     "3.前端开发/JavaScript 常用内置方法.md",
-    "3.前端开发/JavaScript 语法.md",
-    "3.前端开发/JavaScript 常用方法实现.md",
     "3.前端开发/JavaScript 原理.md",
     "Attachments/Pasted image 20231201151524.png",
     "2.数据结构&算法/算法/排序.md",
@@ -200,12 +204,8 @@
     "2.数据结构&算法/技术面试指导.md",
     "2.数据结构&算法/算法/散列表.md",
     "Attachments/Pasted image 20231124101718.png",
-    "2.数据结构&算法/数据结构/字符串.md",
     "Attachments/Pasted image 20231112151930.png",
     "Attachments/Pasted image 20231112151808.png",
-    "Attachments/Pasted image 20231110105506.png",
-    "Attachments/Pasted image 20230831115319.png",
-    "Attachments/Pasted image 20230825133726.png",
     "1.工具&技能",
     "未命名.canvas",
     "Excalidraw",
