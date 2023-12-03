@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.前端开发/JavaScript 原理.md",
+                "file": "2.数据结构&算法/算法/排序.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 原理.md",
+                "file": "2.数据结构&算法/算法/排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 原理.md",
+                "file": "2.数据结构&算法/算法/排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 原理.md"
+                "file": "2.数据结构&算法/算法/排序.md"
               }
             }
           },
@@ -196,8 +196,8 @@
   },
   "active": "f72c3531d730a858",
   "lastOpenFiles": [
-    "3.前端开发/JavaScript 语法.md",
     "3.前端开发/JavaScript 原理.md",
+    "3.前端开发/JavaScript 语法.md",
     "3.前端开发/JavaScript 常用内置方法.md",
     "3.前端开发/JavaScript Tricks.md",
     "3.前端开发/JavaScript 常用方法实现.md",
