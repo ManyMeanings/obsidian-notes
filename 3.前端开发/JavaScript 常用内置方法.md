@@ -22,6 +22,13 @@ arr.splice(-1); // arr = ['a', 'b', 'c', 'd']
 arr.splice(1, 2); // arr = ['a', 'd', 'e']
 arr.reverse(); // arr = ['e', 'd', 'c', 'b', 'a']
 
+// find
+// 迭代数组的每个元素，返回第一个函数返回值为 true 的元素
+arr.find(item => item === 'a'); // 'a'
+// findIndex
+// 返回第一个匹配到的索引
+arr.findIndex(item => item === 'a') // 0
+
 // foreach
 // 无法中断循环
 arr.forEach((item, index, arr) => {
@@ -42,8 +49,12 @@ const newArr = arr.filter((item, index, arr) => {
 });
 
 // reduce
-// 分解数组所有元素，将原始数组的值转换为一个单独的值
-const res = arr.reduce();
+// 将原始数组的所有元素转换为一个单独的值
+// 传入一个迭代函数和一个累加器的初始值，函数的第一个参数为累加器
+// 每次迭代函数的返回值会被赋值给累加器,从而进行下一次迭代
+const res = arr.reduce((acc, cur, i, arr) => {
+	return acc + cur;
+}, 0);
 
 
 ```
