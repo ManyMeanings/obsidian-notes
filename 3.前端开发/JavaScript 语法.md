@@ -198,6 +198,8 @@ set.clear();
 for (let x of set) {
   console.log(x); // 1 2 3 4
 }
+
+set.forEach((value, key, map) => {});
 ```
 
 #### WeakSet
@@ -232,6 +234,8 @@ for (let value of map.values()) {} // 遍历值
 // 等同于使用map.entries()
 for (let [key, value] of map) {} // 遍历键值对
 
+map.forEach((value, key, map) => {})
+
 // 对象转为 Map
 let map = new Map(Object.entries(obj));
 // Map 转为 Array
@@ -261,8 +265,33 @@ const calc = function () {
 // 不存在 arguments 关键字
 const calc = test => true
 
+// 立即调用函数表达式/自执行匿名函数
+(function () {
+	//...
+})();
+// 箭头函数写法
+(() => {
+	//...
+})();
+// 作用1:避免污染全局命名空间/创建私有变量
+(() => {
+  // 初始化代码
+  let firstVariable;
+  let secondVariable;
+})(); // firstVariable 和 secondVariable 变量在函数执行后会被丢弃
+// 作用2:执行一个异步函数
+(async () => {
+  const stream = await getFileStream("https://domain.name/path/file.ext");
+  for await (const chunk of stream) {
+    console.log({ chunk });
+  }
+})();
+
 // 参数默认值
 function clac(param1 = 1, param2 = param1 * 2) {}
+
+// 无用参数
+calc(1, _, 2){};
 
 // 对引用类型参数的修改会影响传入的外部参数
 const obj = { a: 1 };

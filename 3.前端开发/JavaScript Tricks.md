@@ -26,4 +26,8 @@ const copyObj = { ...obj }
 for (const [index, item] of arr.entries()) {}
 for (const [key, value] of Object.entries(obj)) {}
 
+// 6.获取数组的最后一个元素
+const arr = ['a', 'b', 'c', 'd', 'e'];
+arr.at(-1); // 'e'
+
 ```

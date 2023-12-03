@@ -79,6 +79,17 @@ fn.apply(person, ["hello"]); // hello,tao
 // 可以用 call 做到相同的事情
 fn.call(person, ...["hello"]); // hello,tao
 
+// bind
+// 创建一个新函数并将this绑定到传入对象上
+const fn2 = fn.bind(person);
+fn2('hello');  // hello,tao
+// 可以在绑定时设置参数
+const fn3 = fn.bind(person, 'hello');
+fn3() // hello,tao
+// 作用1:给高阶函数传入方法
+document.querySelector('div').addEventListener('click', fn.bind(person));
+// 作用2:不管this指向，只指定参数
+const fn4 = fn.bind(null, 'hello');
 
 ```
 
@@ -89,4 +100,12 @@ fn.call(person, ...["hello"]); // hello,tao
 如果区块中存在 let 和 const，这个区块对这两个关键字声明的变量，从一开始就形成了封闭作用域。假如尝试在声明前去使用这类变量，就会报错。这一段会报错的区域就是**暂时性死区**。
 
 在编译阶段，JS 引擎会搜集所有的变量声明，并且提前让声明生效。
+
+### 闭包
+
+闭包是由函数以及声明该函数的词法环境（_词法作用域根据源代码中声明变量的位置来确定该变量在何处可用。_）组合而成的，该环境包含了这个闭包**创建时**作用域内的任何**局部变量**。即使父函数已经执行结束，闭包使子函数依旧能访问到父函数中的局部变量。
+
+闭包使函数可以访问其父函数的所有变量，即使在父函数返回之后也是如此。该函数保留对其外部作用域的引用，从而始终保留作用域链。
+
+![[Pasted image 20231203144440.png]]
 
