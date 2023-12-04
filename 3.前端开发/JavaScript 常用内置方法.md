@@ -5,8 +5,17 @@
 
 ### Array
 
+![[Pasted image 20231204111414.png]]
+
 ```js
 const arr = ['a', 'b', 'c', 'd', 'e'];
+const arr = new Array('a', 'b', 'c', 'd', 'e');
+// 创建长度为 7 的空数组
+const x = new Array(7);
+// [begin, end) 位置全部填充为 1
+x.fill(1, begin, end);
+// Array.from
+const y = Array.from({length: 5}, (_, i) => i + 1); // [1, 2, 3, 4, 5]
 
 // 不改变原数组
 arr.slice(2); // ['c', 'd', 'e']
@@ -29,11 +38,36 @@ arr.find(item => item === 'a'); // 'a'
 // 返回第一个匹配到的索引
 arr.findIndex(item => item === 'a') // 0
 
+// some/every
+// 判断数组中是否有元素满足给定条件
+arr.some(item => item === 'a'); // true
+// 判断数组中是否**所有元素**都满足给定条件
+arr.every(item => item === 'a'); // false
+
+// flat
+// 不改变原数组
+// 传入一个number表示深度，默认为1
+const arr = [[1, 2, 3], 4, 5];
+arr.flat(1); // [1, 2, 3, 4, 5]
+// map 和 flat(1) 的结合
+arr.flatMap(item => item); // // [1, 2, 3, 4, 5]
+
 // foreach
 // 无法中断循环
 arr.forEach((item, index, arr) => {
 	// ...
 });
+
+// sort
+// 改变了原数组
+// 不传参数时，按照字符串顺序进行排序
+arr.sort(); // ['a', 'b', 'c', 'd', 'e'];
+// 传入比较函数
+// return < 0, a, b 小于零不变
+// return > 0, b, a 大于零就交换
+const arr = [1, 0 , -4, 5];
+arr.sort((a, b) => a - b); // [-4, 0, 1, 5]
+
 
 // map
 // 迭代处理数组的每个值，返回一个处理后的新数组
@@ -55,7 +89,6 @@ const newArr = arr.filter((item, index, arr) => {
 const res = arr.reduce((acc, cur, i, arr) => {
 	return acc + cur;
 }, 0);
-
 
 ```
 
