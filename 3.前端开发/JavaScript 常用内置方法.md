@@ -142,6 +142,32 @@ str.split(''); // ['a', 'b', 'c', 'd', 'e']
 ### Math
 
 ```js
+// 平方根
+Math.sqrt(25); // 5
+
+// 最大值
+Math.max(2, 4, -1); // 4
+// 最小值
+Math.min(2, 4, -1); // -1
+
+// 生成 [0, 1) 之间的随机数
+Math.random();
+// 生成 [min, max] 之间的随机整数
+const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + 1) + min
+
+// 舍去小数部分
+Math.trunc(23.3); // 23
+// 四舍五入为整数
+Math.round(23.3); // 23
+// 向上取整
+Math.ceil(23.3); // 24
+// 向下取整
+Math.floor(-23.3); // -24
+
+
+
+
+
 ```
 
 ### Date

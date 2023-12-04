@@ -132,6 +132,36 @@ x = y = 20 - 10 // x = 10, y = 10
 | assignment             | `= += -= *= /= %= <<= >>= >>>= &= ^= \|=` |
 | comma                  | `,`                                       |
 
+### 数值
+
+```js
+// 存储基于2进制带来的精度问题
+0.1 + 0.2 === 0.3; // false
+
+// toFixed 返回四舍五入指定位数的字符串
+(2.7).toFixed(0); // '3'
+
+// 字符串转数字
+Number('23'); // 23
++'23'; // 23
+// 从字符串中解析数字
+Number.parseInt('30px'); // 30
+
+// 检查是不是有限数
+Number.isFinite(23); // true
+Number.isFinite(NaN); // false
+Number.isFinite(1 / 0); // false
+
+// 检查是否是非数字
+Number.isNaN('20'); // true
+
+// 检查是否是整数
+Number.isInteger(20.0); // true
+
+// 数字分隔符
+const money = 12_345_678_900; // 12345678900
+```
+
 ### 字符串
 
 对字符串调用方法时，javascript会将其转换为字符串对象，处理完后再转回字符串。
