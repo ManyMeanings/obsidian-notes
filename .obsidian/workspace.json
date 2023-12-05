@@ -45,8 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "639b3aafd039758a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.数据结构&算法/题目/栈的最小值.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/题目/栈的最小值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/题目/栈的最小值.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md"
+                "file": "2.数据结构&算法/题目/栈的最小值.md"
               }
             }
           },
@@ -193,14 +207,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2df6b1d18a868945",
+  "active": "639b3aafd039758a",
   "lastOpenFiles": [
+    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "2.数据结构&算法/时间复杂度.md",
+    "2.数据结构&算法/算法/排序.md",
+    "3.前端开发/JavaScript 语法.md",
     "3.前端开发/JavaScript Tricks.md",
     "3.前端开发/JavaScript 常用内置方法.md",
-    "3.前端开发/JavaScript 语法.md",
     "Attachments/Pasted image 20231204111414.png",
     "3.前端开发/JavaScript 原理.md",
-    "2.数据结构&算法/算法/排序.md",
     "3.前端开发/JavaScript 常用方法实现.md",
     "Attachments/Pasted image 20231203144440.png",
     "Attachments/Pasted image 20231202095533.png",
@@ -228,7 +244,6 @@
     "生活/日本自由行.md",
     "3.前端开发",
     "2.数据结构&算法/题目/48.旋转图像.md",
-    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
     "2.数据结构&算法/技术面试指导.md",
     "2.数据结构&算法/算法/散列表.md",
     "1.工具&技能",
