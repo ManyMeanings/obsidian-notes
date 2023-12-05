@@ -164,18 +164,38 @@ Math.ceil(23.3); // 24
 // 向下取整
 Math.floor(-23.3); // -24
 
-
-
-
-
 ```
 
 ### Date
 
 ```js
+const now = new Date();
+const future = new Date(2037, 10, 19, 15, 23);
+
+future.getFullYear(); // 2037
+future.getMonth(); // 10
+future.getDate(); // 19
+future.getHours(); // 15
+future.getMinutes(); // 23
+future.getSeconds(); // 0
+// 一周的第几天， 0表示星期天
+future.getDay(); // 4 
+// 返回一个 ISO 格式的字符串,时区总是 UTC
+future.toISOString(); // '2037-11-19T07:23:00.000Z'
+// 时间戳，以毫秒为单位
+future.getTime();
+// 转换为数值（时间戳)
++future
+Number(future)
+
+// set
+future.setFullYear(2040);
+...
+
 ```
 
-### 其他
+### Dom
 
 ```js
+
 ```

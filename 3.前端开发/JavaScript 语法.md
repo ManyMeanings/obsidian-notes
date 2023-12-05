@@ -495,3 +495,86 @@ for (const value of Object.values(obj)) {
 }
 
 ```
+
+### 国际化
+
+```js
+// 日期时间国际化
+const now = new Date();
+const locale = navigator.language;
+const options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+};
+new Intl.DateTimeFormat(locale, options).format(now);
+
+// 数值国际化
+const num = 2884746.23;
+const options = {};
+new Intl.NumberFormat(locale, options).format(num);
+```
+
+### 计时器
+
+```js
+const timer = setTimeout(
+    (param1, param2) => console.log("call afther 3 second"),
+    3000,
+    "param1",
+    "param2"
+);
+clearTimeout(timer);
+
+const timer = setInterval(
+    (param1, param2) => console.log("call every 3 second"),
+    3000,
+    "param1",
+    "param2"
+);
+clearInterval(timer);
+```
+
+### DOM 操作
+
+```js
+// 选择元素
+document.documentElement; // html
+document.head; // head
+document.body; // body
+// 返回一个 dom 元素
+const element = document.querySelector('div');
+document.getElementById('div-id');
+// 返回一个 dom 元素列表，类型为 NodeList
+document.querySelectorAll('div');
+// 返回一个 HTMLCollection 类型的 dom 元素集合，会动态改变
+document.getElementsByTagName('button');
+document.getElementsByClassName('btn');
+
+// 将指定的文本解析为dom元素，并将结果节点插入到 DOM 树中的指定位置
+// position: 'beforebegin','afterbegin','beforeend','afterend'
+element.insertAdjacentHTML(position, text);
+// 创建元素
+const div = document.createElement('div');
+// 插入元素
+// 在父节点的第一个子节点之前插入一系列Node对象或者DOMString对象
+element.prepend(div);
+// 在父节点的最后一个子节点之后插入一系列Node对象或者DOMString对象
+element.append(div);
+// 插入的 div 与 element 同级
+element.before(div);
+element.after(div);
+// 删除
+div.remove();
+
+
+// 属性
+
+
+// 在 dom 元素上添加监听事件
+dom.addEventListener('click', function(e) {
+	// 阻止默认行为
+	e.preventDefault();
+})
+```
