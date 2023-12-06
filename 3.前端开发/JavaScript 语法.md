@@ -536,8 +536,3 @@ const timer = setInterval(
 clearInterval(timer);
 ```
 
-### DOM 操作
-
-```js
-
-```

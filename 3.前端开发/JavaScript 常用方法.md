@@ -282,3 +282,36 @@ dom.removeEventListener('click', handle);
 
 dom.onmouseenter = handle;
 ```
+
+### IntersectionObserver
+
+**`IntersectionObserver`** 接口提供了一种异步观察目标元素与其祖先元素或顶级文档视口交叉状态的方法。其祖先元素或视口被称为根（root）。
+
+当一个 `IntersectionObserver` 对象被创建时，其被配置为监听根中一段给定比例的可见区域。一旦 `IntersectionObserver` 被创建，则无法更改其配置，所以一个给定的观察者对象只能用来监听可见区域的特定变化值；然而，你可以在同一个观察者对象中配置监听多个目标元素。
+
+```js
+const header = document.querySelector(".header");
+const nav = document.querySelector(".nav");
+
+const obsOptions = {
+    root: null, // 根为顶级文档的视口
+    threshold: [0], // 一个包含阈值的列表，按升序排列，列表中的每个阈值都是监听对象的交叉区域与边界区域的比率。
+    rootMargin: "-90px", // 计算交叉时添加到根的矩形偏移量
+};
+
+const obsCallback = function (entries) {
+    const [entry] = entries;
+
+    if (!entry.isIntersecting) {
+        // 当 header 移出浏览器视口时
+        nav.classList.add("sticky");
+    } else {
+        nav.classList.remove("sticky");
+    }
+};
+
+const observer = new IntersectionObserver(obsCallback, obsOptions);
+// 监听 header 元素和浏览器视口的交叉状态
+observer.observe(header);
+
+```
