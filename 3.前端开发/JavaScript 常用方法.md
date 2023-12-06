@@ -210,6 +210,22 @@ document.querySelectorAll('div');
 document.getElementsByTagName('button');
 document.getElementsByClassName('btn');
 
+// child
+element.childNodes
+element.children // 返回 HTMLCollection 类型的直接子元素集合
+element.firstElementChild
+element.lastElementChild
+
+// parent
+element.parentNodes
+element.parentElement
+element.closest('.header') // 选择类名为 header 的最近父元素, 与querySelector相反
+
+// siblings
+element.previousElementSibling
+element.nextElementSibling
+element.parentElement.children
+
 // 将指定的文本解析为dom元素，并将结果节点插入到 DOM 树中的指定位置
 // position: 'beforebegin','afterbegin','beforeend','afterend'
 element.insertAdjacentHTML(position, text);
@@ -251,9 +267,18 @@ element.getAttribute('my-attr');
 
 
 // 在 dom 元素上添加监听事件
-dom.addEventListener('click', function(e) {
+const handle = (e) => {
 	// 阻止默认行为
 	e.preventDefault();
-})
-dom.removeEventListener('click', handle)
+	// 阻止事件冒泡
+	e.stopPropagation();
+	e.target // 事件发生目标元素
+	e.currentTarget === this // true
+}
+// 在冒泡阶段监听
+dom.addEventListener('click', handle, false);
+// 移除监听事件
+dom.removeEventListener('click', handle);
+
+dom.onmouseenter = handle;
 ```
