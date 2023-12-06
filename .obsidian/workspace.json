@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 常用方法.md",
+                "file": "3.前端开发/JavaScript 原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 常用方法.md",
+                "file": "3.前端开发/JavaScript 原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 常用方法.md"
+                "file": "3.前端开发/JavaScript 原理.md"
               }
             }
           },
@@ -220,11 +220,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f72c3531d730a858",
+  "active": "e494ecc1852a6dd8",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20231206202537.png",
+    "Attachments/Pasted image 20231206202024.png",
+    "3.前端开发/JavaScript 常用方法.md",
     "3.前端开发/JavaScript Tricks.md",
     "3.前端开发/JavaScript 语法.md",
-    "3.前端开发/JavaScript 常用方法.md",
     "3.前端开发/JavaScript 原理.md",
     "2.数据结构&算法/算法/排序.md",
     "2.数据结构&算法/技术面试指导.md",
@@ -251,13 +253,11 @@
     "2.数据结构&算法/数据结构/二叉树.md",
     "Attachments/Pasted image 20231130150545.png",
     "2.数据结构&算法/数据结构/图.md",
-    "Attachments/Pasted image 20231130093712.png",
     "2.数据结构&算法/题目/142.环形链表 II.md",
     "2.数据结构&算法/数据结构/链表.md",
     "2.数据结构&算法/题目/141.环形链表.md",
     "2.数据结构&算法/数据结构/数组.md",
     "2.数据结构&算法/题目/160.相交链表.md",
-    "1.工具&技能/Final Cut Pro.md",
     "3.前端开发",
     "1.工具&技能",
     "未命名.canvas",

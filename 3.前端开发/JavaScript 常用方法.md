@@ -206,6 +206,7 @@ const element = document.querySelector('div');
 document.getElementById('div-id');
 // 返回一个 dom 元素列表，类型为 NodeList
 document.querySelectorAll('div');
+document.querySelectorAll('img[data-src]');
 // 返回一个 HTMLCollection 类型的 dom 元素集合，会动态改变
 document.getElementsByTagName('button');
 document.getElementsByClassName('btn');
@@ -313,5 +314,30 @@ const obsCallback = function (entries) {
 const observer = new IntersectionObserver(obsCallback, obsOptions);
 // 监听 header 元素和浏览器视口的交叉状态
 observer.observe(header);
+
+// ----------------图片懒加载----------------
+
+const imgTargets = document.querySelectorAll("img[data-src]");
+
+const imgObserver = new IntersectionObserver(revealSection, {
+    root: null,
+    threshold: 0,
+    rootMargin: '-200px'
+});
+
+function revealSection(entries, observe) {
+    const [entry] = entries;
+    if (!entry.isIntersecting) return;
+
+    entry.target.src = entry.target.dataset.src;
+    entry.target.addEventListener("load", (e) => {
+        entry.target.classList.remove("lazy-img");
+    });
+    observe.unobserve(entry.target);
+}
+
+imgTargets.forEach((img) => {
+    imgObserver.observe(img);
+});
 
 ```
