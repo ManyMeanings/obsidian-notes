@@ -109,6 +109,54 @@ const fn4 = fn.bind(null, 'hello');
 
 ![[Pasted image 20231203144440.png]]
 
+### 原型（Prototype）
+
+每个对象（object）都有一个私有属性指向另一个名为**原型**（prototype）的对象。原型对象也有一个自己的原型，层层向上直到一个对象的原型为 `null`。根据定义，`null` 没有原型，并作为这个**原型链**（prototype chain）中的最后一个环节。
+
+当试图访问一个对象的属性时，它不仅仅在该对象上搜寻，还会搜寻该对象的原型，以及原型的原型，依次层层向上搜索，直到找到一个名字匹配的属性或到达原型链的末尾。
+
+在 JavaScript 中，任何函数都被可以添加到对象上作为其属性，函数的继承与其他属性的继承没有差别。
+
+**构造函数**是使用 `new` 调用的函数。每一个构造函数都有一个 `prototype` 属性，通过构造函数创建的每一个实例都会自动将构造函数的 `prototype` 属性作为其 `[[Prototype]]`。**原型对象  `prototype` 的作用，就是定义所有对象实例所共享的属性和方法。**
+
+当使用 **`new`** 关键字调用函数时，该函数将被用作构造函数。`new` 将执行以下操作：
+1. 创建一个新的对象 `obj`。
+2. 将`obj`的原型指向构造函数的原型对象
+3. 将构造函数中的 `this` 指向`obj`，调用函数
+4. 根据构造函数返回类型作判断：如果是原始值则返回`obj`；如果是对象，则正常返回这个对象
+
+```js
+// 设置原型
+const obj = {
+	a: 1,
+	__proto__: {
+		b: 2
+	}
+}
+// 访问对象的原型
+Object.getPrototypeOf(obj); // { b: 2 }
+// 设置/修改对象的原型
+Object.setPrototypeOf(obj, { c: 3 }); // obj 的原型被修改为 { c: 3 }
+
+// 构造函数
+function Box(value) {
+	this.value = value;
+}
+// 使用 Box() 构造函数创建的所有盒子都将具有的属性
+Box.prototype.getValue = function () {
+	return this.value;
+}
+const box = new Box(1);
+// 在实例中访问原始构造函数
+box.constructor === Box // true
+// 判断是否是自有属性
+box.hasOwnProperty('value') // true
+
+
+// 检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上。
+box instanceof Box // true
+```
+
 ### 文档对象模型（DOM）
 
 文档对象模型（DOM）是一个网络文档的**编程接口**。它代表页面，以便程序可以改变文档的结构、风格和内容。DOM 将文档表示为节点和对象；这样，编程语言就可以与页面交互。

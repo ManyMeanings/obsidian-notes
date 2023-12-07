@@ -359,9 +359,6 @@ clac.name; // 'calc'
 function clac(num1, num2, fn) {
 	return fn(num1, num2); 
 }
-
-
-
 ```
 
 ### 变量的解构赋值
@@ -535,4 +532,8 @@ const timer = setInterval(
 );
 clearInterval(timer);
 ```
+
+### 类（Class）
+
+类是用于创建对象的模板，实际上就是构造函数的语法糖，只是让对象原型的写法更加清晰、更像面向对象编程的语法而已。
 
