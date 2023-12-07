@@ -137,6 +137,8 @@ const obj = {
 Object.getPrototypeOf(obj); // { b: 2 }
 // 设置/修改对象的原型
 Object.setPrototypeOf(obj, { c: 3 }); // obj 的原型被修改为 { c: 3 }
+// 创建一个空对象obj2，它的原型为obj
+const obj2 = Object.create(obj);
 
 // 构造函数
 function Box(value) {
@@ -151,7 +153,6 @@ const box = new Box(1);
 box.constructor === Box // true
 // 判断是否是自有属性
 box.hasOwnProperty('value') // true
-
 
 // 检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上。
 box instanceof Box // true

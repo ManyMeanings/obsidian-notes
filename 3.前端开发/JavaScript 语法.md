@@ -208,6 +208,23 @@ const o = {
     return "Hello!";
   }
 };
+
+// getter & setter
+// 不能为一个已有真实值的变量使用 set 和 get
+const obj = {
+  log: ["example", "test"],
+  get latest() {
+    if (this.log.length == 0) return undefined;
+    return this.log[this.log.length - 1];
+  },
+  set latest(value) {
+	  this.log.push(value)
+  }
+};
+obj.latest // "test"
+obj.latest = 'add';
+obj.latest // 'add'
+obj.log // ['example', 'test', 'qq']
 ```
 
 #### 属性名表达式
@@ -535,5 +552,39 @@ clearInterval(timer);
 
 ### 类（Class）
 
-类是用于创建对象的模板，实际上就是构造函数的语法糖，只是让对象原型的写法更加清晰、更像面向对象编程的语法而已。
+类是用于创建对象的模板，实际上就是构造函数的语法糖，只是让对象原型的写法更加清晰、更像面向对象编程的语法而已。类不存在变量提升。
+
+```js
+class Person {
+    constructor(name, birthYear) {
+        this.name = name;
+        this.birthYear = birthYear;
+    }
+
+    get age() {
+        return 2023 - this.birthYear;
+    }
+
+    set age(value) {
+        this.birthYear = 2023 - value;
+    }
+    
+    greet() {
+        console.log(`hello, ${this.name}`);
+    }
+
+	// 静态方法只能通过类调用，无法被实例继承
+	static hey() {
+		console.log('call by Person');
+	}
+}
+
+const rick = new Person("rick", 1998);
+rick.age; // 25
+rick.age = 26;
+rick.birthYear; // 1997
+Person.hey(); // 'call by Person'
+
+
+```
 
