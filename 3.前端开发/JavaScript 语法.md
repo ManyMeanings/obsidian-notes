@@ -556,6 +556,10 @@ clearInterval(timer);
 
 ```js
 class Person {
+	publicProps = 1; // 公共变量，可以从实例访问
+	#privateProps = 1; // 私有变量，无法从外部访问
+	static props = 1; // 静态变量，只在类中使用
+	
     constructor(name, birthYear) {
         this.name = name;
         this.birthYear = birthYear;
@@ -577,6 +581,10 @@ class Person {
 	static hey() {
 		console.log('call by Person');
 	}
+	
+	#privateMethod() {
+		// 私有方法，无法从外部访问
+	}
 }
 
 const rick = new Person("rick", 1998);
@@ -584,6 +592,22 @@ rick.age; // 25
 rick.age = 26;
 rick.birthYear; // 1997
 Person.hey(); // 'call by Person'
+
+// 类的继承
+class Student extends Person {
+    constructor(name, birthYear, classNmae) {
+        super(name, birthYear); // 调用父类构造函数
+        this.className = className;
+    }
+
+    greet() {
+        super.greet(); // super 指向父类的原型对象
+        console.log(`from ${this.className}`);
+    }
+}
+
+// 子类可以继承静态方法和静态属性
+Student.hey();
 
 
 ```
