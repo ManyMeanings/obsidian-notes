@@ -631,5 +631,17 @@ request.addEventListener("readystatechange", function () {
         const data = JSON.parse(this.responseText);
     }
 });
+```
+
+#### Fetch API
+
+```js
+fetch("https://restcountries.com/v3.1/all")
+    .then((res) => res.json())
+    .then((data) => console.log(data))
+    .catch((err) => console.log(err))
+    .finally(() => {
+        // alway call
+    });
 
 ```
