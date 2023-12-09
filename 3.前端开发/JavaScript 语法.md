@@ -608,7 +608,28 @@ class Student extends Person {
 
 // 子类可以继承静态方法和静态属性
 Student.hey();
-
-
 ```
 
+### 异步请求
+
+#### XMLHttpRequest
+
+```js
+const request = new XMLHttpRequest();
+
+// get 请求
+request.open("GET", "https://restcountries.com/v3.1/all");
+request.send();
+
+// post 请求
+// request.open('POST', url);
+// request.setRequestHeader('content-type', 'application/x-www-form-urlencoded');
+// request.send('prop1=1&prop2=2')
+
+request.addEventListener("readystatechange", function () {
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+        const data = JSON.parse(this.responseText);
+    }
+});
+
+```

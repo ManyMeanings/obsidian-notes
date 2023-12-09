@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.数据结构&算法/题目/5.最长回文子串.md",
+                "file": "3.前端开发/JavaScript 语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.数据结构&算法/题目/5.最长回文子串.md",
+                "file": "3.前端开发/JavaScript 语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.数据结构&算法/题目/5.最长回文子串.md"
+                "file": "3.前端开发/JavaScript 语法.md"
               }
             }
           },
@@ -220,8 +219,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1c1e47d0be1bb6d3",
+  "active": "2df6b1d18a868945",
   "lastOpenFiles": [
+    "2.数据结构&算法/题目/5.最长回文子串.md",
     "2.数据结构&算法/算法/排序.md",
     "3.前端开发/JavaScript 常用方法.md",
     "3.前端开发/JavaScript 语法.md",
@@ -257,7 +257,6 @@
     "2.数据结构&算法/算法/回溯.md",
     "2.数据结构&算法/数据结构/二叉树.md",
     "2.数据结构&算法/数据结构/图.md",
-    "2.数据结构&算法/题目/142.环形链表 II.md",
     "3.前端开发",
     "1.工具&技能",
     "未命名.canvas",
