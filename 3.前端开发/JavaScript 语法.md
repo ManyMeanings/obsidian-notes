@@ -610,7 +610,7 @@ class Student extends Person {
 Student.hey();
 ```
 
-### 异步请求
+### 异步任务
 
 #### XMLHttpRequest
 
@@ -636,12 +636,53 @@ request.addEventListener("readystatechange", function () {
 #### Fetch API
 
 ```js
-fetch("https://restcountries.com/v3.1/all")
-    .then((res) => res.json())
+const options = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: JSON.stringify({ key: "value" }), // body data type must match "Content-Type" header
+};
+
+fetch("https://restcountries.com/v3.1/all", options)
+    .then((res) => {
+        if (!response.ok) {
+            throw new Error("Network response was not OK");
+        }
+        return res.json();
+    })
     .then((data) => console.log(data))
     .catch((err) => console.log(err))
-    .finally(() => {
-        // alway call
+    .finally(() => {});
+```
+
+#### Promise
+
+```js
+const promise = new Promise((resolve, reject) => {
+    if (Math.random() >= 0.5) {
+        resolve("win"); // 传入参数在 then 中取得
+    } else {
+        reject("lose"); // 传入参数在 catch 中取得
+    }
+});
+
+promise.then((res) => console.log(res)).catch((err) => console.log(err));
+```
+
+#### async / await
+
+```js
+const wait = function (second) {
+    return new Promise((resolve) => {
+        setTimeout(resolve.bind(null, "finished"), second * 1000);
     });
+};
+
+const example = async function () {
+    const res = await wait(3);
+    console.log(res); // finished
+};
 
 ```
