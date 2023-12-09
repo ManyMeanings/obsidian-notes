@@ -60,19 +60,20 @@
             }
           },
           {
-            "id": "7914e501b31931c9",
+            "id": "1c1e47d0be1bb6d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.数据结构&算法/算法/滑动窗口.md",
+                "file": "2.数据结构&算法/题目/5.最长回文子串.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/题目/5.最长回文子串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/题目/5.最长回文子串.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md"
+                "file": "2.数据结构&算法/题目/5.最长回文子串.md"
               }
             }
           },
@@ -219,13 +220,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2df6b1d18a868945",
+  "active": "1c1e47d0be1bb6d3",
   "lastOpenFiles": [
-    "3.前端开发/JavaScript 原理.md",
+    "2.数据结构&算法/算法/排序.md",
     "3.前端开发/JavaScript 常用方法.md",
     "3.前端开发/JavaScript 语法.md",
+    "3.前端开发/JavaScript 原理.md",
     "2.数据结构&算法/算法/滑动窗口.md",
-    "2.数据结构&算法/算法/排序.md",
     "3.前端开发/JavaScript Tricks.md",
     "2.数据结构&算法/学习算法和刷题的框架思维.md",
     "2.数据结构&算法/时间复杂度.md",
