@@ -762,5 +762,4 @@ import funcName from "./module.js";
 import("module.js").then((module) => {
 	...
 })
-
 ```
