@@ -715,8 +715,52 @@ example.then(res => res); // finished
     }
     console.log('finally');
 })();
+
+// await 可以直接在模块中使用
+// --------module.js-------
+const res = await fetch(url);
 ```
 
 ### 模块
 
 ![[Pasted image 20231210105915.png]]
+
+```js
+//  ---------index.html----------
+// <script src="script.js" type="module"></script>
+
+// ---------module.js----------
+export const name = "rick"; // 导出变量
+
+// 导出函数
+export function greet() {
+    return "hello";
+}
+
+// 批量导出
+export { name, greet };
+
+// 导出时重命名
+export { greet as hello };
+
+// 默认导出
+export default function (ctx) {
+	...
+}
+	
+// 聚合模块
+export { name } from "x.js";
+
+// ---------script.js----------
+import { name, greet as hello } from "./module.js";
+// 全部导入
+import * as Module from "./module.js";
+// 导入默认函数
+import funcName from "./module.js";
+
+// 动态加载模块,把 import 作为函数使用nod
+import("module.js").then((module) => {
+	...
+})
+
+```
