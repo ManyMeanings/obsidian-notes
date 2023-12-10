@@ -669,6 +669,25 @@ const promise = new Promise((resolve, reject) => {
 });
 
 promise.then((res) => console.log(res)).catch((err) => console.log(err));
+
+// Promise.all
+// 当所有输入的 Promise 都被兑现时，返回的 Promise 也将被兑现（即使传入的是一个空的可迭代对象），并返回一个包含所有兑现值的数组。如果输入的任何 Promise 被拒绝，则返回的 Promise 将被拒绝，并带有第一个被拒绝的原因。
+const [res1, res2] = Promise.all([promise1, promise2]);
+
+// Promise.race
+// 只得到一个结果
+// 当你想要第一个异步任务完成时，但不关心它的最终状态（即它既可以成功也可以失败）时，它就非常有用。
+const res = Promise.race([promise1, promise2]);
+
+// Promise.allSettled
+// 即使有被拒绝的promise，依旧会返回所有结果
+const [res1, res2] = Promise.allSettled([promise1, promise2]);
+
+// Promise.any
+// 返回第一个兑现的结果
+const res = Promise.any([promise1, promise2]);
+
+
 ```
 
 #### async / await
@@ -682,7 +701,22 @@ const wait = function (second) {
 
 const example = async function () {
     const res = await wait(3);
-    console.log(res); // finished
+    return res; // finished
 };
 
+example.then(res => res); // finished
+
+// async 立即执行函数
+(async function () {
+    try {
+        const res = await example();
+    } catch (err) {
+        console.log(err.message);
+    }
+    console.log('finally');
+})();
 ```
+
+### 模块
+
+![[Pasted image 20231210105915.png]]
