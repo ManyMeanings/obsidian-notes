@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 深入.md",
+                "file": "3.前端开发/JavaScript 语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 深入.md",
+                "file": "3.前端开发/JavaScript 语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 深入.md"
+                "file": "3.前端开发/JavaScript 语法.md"
               }
             }
           },
@@ -220,12 +219,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d5d86f2ffbf46db2",
+  "active": "2df6b1d18a868945",
   "lastOpenFiles": [
+    "3.前端开发/JavaScript 深入.md",
     "3.前端开发/JavaScript 常用方法实现.md",
     "3.前端开发/HTML 语法.md",
     "3.前端开发/CSS Tricks.md",
-    "3.前端开发/JavaScript 深入.md",
     "3.前端开发/JavaScript 语法.md",
     "Attachments/Pasted image 20231210105915.png",
     "3.前端开发/JavaScript 常用方法.md",
