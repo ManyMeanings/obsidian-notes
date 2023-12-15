@@ -8,64 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2df6b1d18a868945",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b3739176e28c9a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.前端开发/JavaScript Tricks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f72c3531d730a858",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.前端开发/JavaScript 常用方法.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "639b3aafd039758a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.前端开发/JavaScript 深入.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c1e47d0be1bb6d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.数据结构&算法/题目/5.最长回文子串.md",
+                "file": "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 323.5
   },
   "right": {
     "id": "b8985a9490a32af3",
@@ -138,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md",
+                "file": "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端开发/JavaScript 语法.md"
+                "file": "2.数据结构&算法/题目/3.无重复字符的最长子串.md"
               }
             }
           },
@@ -201,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -219,19 +167,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2df6b1d18a868945",
+  "active": "7228654b2d50acce",
   "lastOpenFiles": [
+    "3.前端开发/JavaScript 常用方法.md",
     "3.前端开发/JavaScript 深入.md",
+    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "2.数据结构&算法/算法/滑动窗口.md",
+    "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
+    "2.数据结构&算法/题目/46.全排列.md",
+    "3.前端开发/JavaScript Tricks.md",
+    "3.前端开发/JavaScript 语法.md",
     "3.前端开发/JavaScript 常用方法实现.md",
     "3.前端开发/HTML 语法.md",
     "3.前端开发/CSS Tricks.md",
-    "3.前端开发/JavaScript 语法.md",
     "Attachments/Pasted image 20231210105915.png",
-    "3.前端开发/JavaScript 常用方法.md",
     "2.数据结构&算法/题目/5.最长回文子串.md",
     "2.数据结构&算法/算法/排序.md",
-    "2.数据结构&算法/算法/滑动窗口.md",
-    "3.前端开发/JavaScript Tricks.md",
     "2.数据结构&算法/学习算法和刷题的框架思维.md",
     "2.数据结构&算法/时间复杂度.md",
     "2.数据结构&算法/我的刷题心得.md",
@@ -245,7 +196,6 @@
     "2.数据结构&算法/算法/散列表.md",
     "2.数据结构&算法/题目/栈的最小值.md",
     "Attachments/Pasted image 20231205160700.png",
-    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
     "Attachments/Pasted image 20231204111414.png",
     "Attachments/Pasted image 20231203144440.png",
     "Attachments/Pasted image 20231202095533.png",
@@ -255,8 +205,6 @@
     "2.数据结构&算法/算法/查找.md",
     "2.数据结构&算法/算法/动态规划.md",
     "2.数据结构&算法/算法/递归.md",
-    "2.数据结构&算法/算法/差分数组.md",
-    "2.数据结构&算法/算法/回溯.md",
     "3.前端开发",
     "1.工具&技能",
     "未命名.canvas",
