@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.工具&技能/网页设计原则.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.工具&技能/网页设计原则.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.工具&技能/网页设计原则.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.工具&技能/网页设计原则.md"
+                "file": "README.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "7af7bf7a0e9f155e",
   "lastOpenFiles": [
-    "Attachments/068 all-design-guidelines.pdf",
     "1.工具&技能/网页设计原则.md",
+    "Attachments/068 all-design-guidelines.pdf",
     "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
     "Excalidraw/Drawing 2023-12-16 14.00.02.excalidraw.md",
     "3.前端开发/JavaScript 常用方法.md",
@@ -214,7 +214,6 @@
     "2.数据结构&算法/算法",
     "2.数据结构&算法/数据结构",
     "Attachments/XcodeKeyboardShortcuts.pdf",
-    "5.文章摘录",
-    "Attachments"
+    "5.文章摘录"
   ]
 }
