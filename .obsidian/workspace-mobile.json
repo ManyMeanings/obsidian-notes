@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1.工具&技能/ACGN.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "1.工具&技能/ACGN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "1.工具&技能/ACGN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "1.工具&技能/ACGN.md"
           }
         }
       }
@@ -134,19 +134,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "8ce0e58f809168d2",
   "lastOpenFiles": [
-    "1.工具&技能/网页设计原则.md",
     "README.md",
+    "4.客户端/App.md",
+    "4.客户端/XcodeShortcuts.md",
+    "4.客户端/MVC.md",
+    "4.客户端/规划.md",
+    "4.客户端/自动布局.md",
+    "4.客户端/Learn Swift in Y minutes.md",
+    "4.客户端/Swift Cheat Sheet.md",
+    "4.客户端/常用代码.md",
+    "4.客户端",
+    "1.工具&技能/ACGN.md",
+    "3.前端/CSS Tricks.md",
+    "3.前端/JavaScript 语法.md",
+    "3.前端/JavaScript Tricks.md",
+    "3.前端/HTML 语法.md",
+    "3.前端/JavaScript 常用方法实现.md",
+    "3.前端/JavaScript 深入.md",
+    "3.前端/前端知识图谱.md",
+    "3.前端/JavaScript 常用方法.md",
+    "3.前端",
+    "Attachments/ACGN资源入门.pdf",
+    "Attachments/Pasted image 20231217103454.png",
+    "Attachments/回归本地教程.pdf",
+    "1.工具&技能/网页设计原则.md",
     "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
     "Excalidraw",
     "LICENSE",
@@ -163,27 +185,6 @@
     "iOS开发/自动布局.md",
     "iOS开发/Swift Cheat Sheet.md",
     "iOS开发/Swift.md",
-    "iOS开发/常用代码.md",
-    "iOS开发",
-    "文章摘录/学习编程的12条规则.md",
-    "文章摘录",
-    "Templates/LeetCode.md",
-    "Templates/文章摘录.md",
-    "Templates",
-    "数据结构&算法/题目/304.二维区域和检索 - 矩阵不可变.md",
-    "数据结构&算法/题目/142.环形链表 II.md",
-    "数据结构&算法/题目/21.合并两个有序链表.md",
-    "数据结构&算法/题目/86.分隔链表.md",
-    "数据结构&算法/题目/303.区域和检索-数组不可变.md",
-    "数据结构&算法/题目/19.删除链表的倒数第 N 个结点.md",
-    "数据结构&算法/题目/23.合并 k 个升序链表（延后）.md",
-    "数据结构&算法/题目/1109.航班预订统计.md",
-    "数据结构&算法/题目/141.环形链表.md",
-    "数据结构&算法/题目/160.相交链表.md",
-    "数据结构&算法/题目/876.链表的中间结点.md",
-    "数据结构&算法/数据结构/链表.md",
-    "数据结构&算法/数据结构/二叉树.md",
-    "数据结构&算法/数据结构/数组.md",
-    "数据结构&算法/题目"
+    "iOS开发/常用代码.md"
   ]
 }
