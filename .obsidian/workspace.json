@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.工具&技能/Final Cut Pro.md",
+                "file": "3.前端/CSS Tricks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.工具&技能/Final Cut Pro.md",
+                "file": "3.前端/CSS Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.工具&技能/Final Cut Pro.md",
+                "file": "3.前端/CSS Tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.工具&技能/Final Cut Pro.md"
+                "file": "3.前端/CSS Tricks.md"
               }
             }
           },
@@ -169,12 +169,13 @@
   },
   "active": "3640c9fe02f2eea9",
   "lastOpenFiles": [
+    "3.前端/前端知识图谱.md",
+    "3.前端/CSS Tricks.md",
+    "1.工具&技能/Final Cut Pro.md",
     "1.工具&技能/ACGN.md",
     "1.工具&技能/网页设计原则.md",
-    "1.工具&技能/Final Cut Pro.md",
     "Attachments/ACGN资源入门.pdf",
     "Attachments/回归本地教程.pdf",
-    "3.前端/前端知识图谱.md",
     "Attachments/Pasted image 20231217103454.png",
     "3.前端/文字大小&间距.md",
     "README.md",
@@ -190,7 +191,6 @@
     "3.前端/JavaScript 语法.md",
     "3.前端/JavaScript 常用方法实现.md",
     "3.前端/HTML 语法.md",
-    "3.前端/CSS Tricks.md",
     "Attachments/Pasted image 20231210105915.png",
     "2.数据结构&算法/题目/5.最长回文子串.md",
     "2.数据结构&算法/算法/排序.md",
