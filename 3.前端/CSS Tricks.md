@@ -28,3 +28,11 @@
 	box-shadow: inset 0 0 0 3px #000;
 }
 ```
+
+### 调暗背景图片
+
+```css
+.img-box {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg.jpg);
+}
+```
