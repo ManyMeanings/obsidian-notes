@@ -5,7 +5,7 @@
 ## DEV
 
 - [x] [The Complete JavaScript Course 2023: From Zero to Expert! | Udemy](https://www.udemy.com/course/the-complete-javascript-course/) ⭐️⭐️⭐️
-- [ ] [Build Responsive Websites with HTML5 and CSS3 | Udemy](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+- [x] [Build Responsive Websites with HTML5 and CSS3 | Udemy](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) ⭐️⭐️
 - [ ] [Vue 3.x全家桶完全指南与实战 | Udemy](https://www.udemy.com/course/vue3-vue-router4-vuex4-complete-tutorial/)
 - [ ] [The Ultimate React Course 2024: React, Redux & More | Udemy](https://www.udemy.com/course/the-ultimate-react-course/)
 - [ ] [Node.js, Express, MongoDB & More: The Complete Bootcamp 2024 | Udemy](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)

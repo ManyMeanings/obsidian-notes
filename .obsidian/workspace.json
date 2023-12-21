@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.前端/CSS Tricks.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端/CSS Tricks.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端/CSS Tricks.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端/CSS Tricks.md"
+                "file": "README.md"
               }
             }
           },
@@ -167,10 +167,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3640c9fe02f2eea9",
+  "active": "7af7bf7a0e9f155e",
   "lastOpenFiles": [
-    "3.前端/前端知识图谱.md",
     "3.前端/CSS Tricks.md",
+    "3.前端/前端知识图谱.md",
     "1.工具&技能/Final Cut Pro.md",
     "1.工具&技能/ACGN.md",
     "1.工具&技能/网页设计原则.md",
