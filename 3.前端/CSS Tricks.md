@@ -36,3 +36,11 @@
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg.jpg);
 }
 ```
+
+### 基于元素属性选择
+
+```css
+.my-input[name="name"] {
+	
+}
+```
