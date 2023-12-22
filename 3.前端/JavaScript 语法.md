@@ -1,4 +1,3 @@
-
 ### 变量名规范
 
 - 只能包含数字、字母、下划线和美元符号$
@@ -52,6 +51,7 @@ x + 1n === x + 2n; // false，因为 9007199254740992n 和 9007199254740993n 不
 | `0`                 | `NaN`               | `❌ false` | `❌ false` | `❌ false`  | `❌ false`      |
 | `'foo'`             | `NaN`               | `❌ false` | `❌ false` | `❌ false`  | `❌ false`      |
 | `NaN`               | `NaN`               | `❌ false` | `❌ false` | `✅ true`   | `✅ true`       |
+
 ### 声明
 
 - `var` 声明一个变量，可选初始化一个值。
@@ -192,6 +192,7 @@ const str = 'abcde';
 str[1]; // b
 str[1] = c; // 不生效，无法直接通过索引访问改变字符串
 ```
+
 ### 对象
 
 #### 简写
@@ -479,6 +480,7 @@ let myIterable = {
 - TypedArray
 - 函数的 arguments 对象
 - NodeList 对象
+
 #### for...of
 
 一个数据结构只要部署了`Symbol.iterator`属性，就被视为具有 iterator 接口，就可以用`for...of`循环遍历它的成员。

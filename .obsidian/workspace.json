@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "3.前端/Vue.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "3.前端/Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "3.前端/Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "3.前端/Vue.md"
               }
             }
           },
@@ -169,8 +169,15 @@
   },
   "active": "7af7bf7a0e9f155e",
   "lastOpenFiles": [
+    "3.前端/JavaScript 语法.md",
+    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "3.前端/JavaScript 常用方法.md",
+    "3.前端/JavaScript 常用方法实现.md",
+    "3.前端/Vue.md",
     "3.前端/CSS Tricks.md",
+    "3.前端/HTML 语法.md",
     "3.前端/前端知识图谱.md",
+    "README.md",
     "1.工具&技能/Final Cut Pro.md",
     "1.工具&技能/ACGN.md",
     "1.工具&技能/网页设计原则.md",
@@ -178,19 +185,13 @@
     "Attachments/回归本地教程.pdf",
     "Attachments/Pasted image 20231217103454.png",
     "3.前端/文字大小&间距.md",
-    "README.md",
     "Attachments/068 all-design-guidelines.pdf",
-    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
     "Excalidraw/Drawing 2023-12-16 14.00.02.excalidraw.md",
-    "3.前端/JavaScript 常用方法.md",
     "3.前端/JavaScript 深入.md",
     "2.数据结构&算法/算法/滑动窗口.md",
     "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
     "2.数据结构&算法/题目/46.全排列.md",
     "3.前端/JavaScript Tricks.md",
-    "3.前端/JavaScript 语法.md",
-    "3.前端/JavaScript 常用方法实现.md",
-    "3.前端/HTML 语法.md",
     "Attachments/Pasted image 20231210105915.png",
     "2.数据结构&算法/题目/5.最长回文子串.md",
     "2.数据结构&算法/算法/排序.md",
