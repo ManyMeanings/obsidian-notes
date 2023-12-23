@@ -28,3 +28,49 @@
 - **updated** 在组件即将因为一个响应式状态变更而更新其 DOM 树之前调用（不能在这时更改组件状态，可能会导致无限循环）。
 - **beforeUnmount** 在一个组件实例被卸载之前调用，此时组件实例还保有全部的功能。
 - **unmounted** 在一个组件实例被卸载之后调用。
+
+### 子组件在插槽中向父组件暴露内部属性
+
+```html
+<!--Parent-->
+<Child v-slot:default="props">{{ props.name }}</Child>
+
+<!--Child-->
+<slot :name="name"/>
+```
+
+### CSS 中绑定响应数据
+
+实际的值会被编译成哈希化的 CSS 自定义属性，因此 CSS 本身仍然是静态的。自定义属性会通过内联样式的方式应用到组件的根元素上，并且在源值变更的时候响应式地更新。
+
+```css
+/*script*/
+data() {
+	return {
+		color: 'red'
+	}
+}
+
+/*style */
+p {
+	color: v-bind(color)
+}
+```
+
+### 自定义 `v-model`
+
+```html
+<!--Parent-->
+<Child v-model="props" />
+
+<!--Child-->
+<!--template-->
+<input
+	type="text"
+	:value="modelValue"
+	@input="$emit('update:modelValue', $event.target.value)" />
+
+<!--script-->
+props: ['modelValue'],
+emits: ['update:modelValue'],
+```
