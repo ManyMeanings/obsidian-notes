@@ -2,7 +2,7 @@
 
 - 计算属性适合做一些简单的操作
 - **计算属性会缓存数据**
-- 计算属性可以直接在 HTML 中，像 Data 中的属性一样使用
+- 计算属性可以直接在 HTML 中，像 Data 中的属性一样使用 
 
 - **方法适合做复杂的操作**
 - 方法通常作为**事件监听**或者**公共业务逻辑**
@@ -74,3 +74,57 @@ p {
 props: ['modelValue'],
 emits: ['update:modelValue'],
 ```
+
+### 自定义指令
+
+```js
+app.directive('fsize', (el, binding) => {
+	// 等于同时设定 mounted 和 updated
+	el.style.fontSize = binding.value + (binding.arg || 'px');
+});
+
+// template
+// <div v-fsize:em="20">test</div>
+```
+
+### `Teleport`组件
+
+```html
+<!--将消息组件直接挂载到body元素下-->
+<Teleport to="body">
+	<Message />
+</Teleport>
+```
+
+### 异步导入组件
+
+```js
+import { defineAsyncComponent } from 'vue';
+
+// 该组件会在第一次挂载的时候加载代码
+const Component = defineAsyncComponent( () => {
+	return import('./components/Child.vue');
+})
+```
+
+### 全局错误处理
+
+```js
+app.config.errorHandler = (err, vm, info) => {
+	err // 错误信息
+	vm // 实例
+	info // 位置
+}
+```
+
+### 组件错误处理（错误边界）
+
+```js
+// 生命周期钩子
+// 捕获所有从子组件传播上来的错误
+errorCaptured(err, instance, info) {
+	return false; // 停止错误向上传播
+}
+```
+
+##  组合 API
