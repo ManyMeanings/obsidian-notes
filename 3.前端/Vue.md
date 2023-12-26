@@ -145,7 +145,7 @@ export default {
     // 对象的嵌套属性具会变成响应性
     const obj = ref({ a: 1, b: 2 }); // 对象
 
-    // ---用 reactive 一次定义多个---
+    // ---用 reactive 定义响应式对象---
     // 支持转入对象或数组
     const option = reactive({
       num: 1,
@@ -174,4 +174,46 @@ export default {
     return { commonVariable, num, string, arr, obj, option, stringLen }; 
   },
 };
+```
+### 侦听器
+
+```js
+import { watch, watchEffect } from "vue";
+
+export default {
+  setup() {
+    const x = ref(0);
+    const y = ref(0);
+
+	// ---侦听数据源类型---
+    // 单个 ref
+    watch(x, (newX) => {
+      console.log(`x is ${newX}`);
+    });
+    // getter 函数
+    watch(
+      () => x.value + y.value,
+      (sum) => {
+        console.log(`sum of x + y is: ${sum}`);
+      }
+    );
+    // 多个来源组成的数组
+    watch([x, () => y.value], ([newX, newY]) => {
+      console.log(`x is ${newX} and y is ${newY}`);
+    });
+	
+	// ---深度侦听---
+	// 直接给 `watch()` 传入一个响应式对象，会隐式地创建一个深层侦听器
+	const obj = reactive({ count: 0 });
+	watch(obj, (newValue, oldValue) => {
+	  // 在嵌套的属性变更时触发
+	  // 注意：`newValue` 此处和 `oldValue` 是相等的
+	  // 因为它们是同一个对象！
+	});
+	// 深度侦听
+
+
+  },
+};
+
 ```
