@@ -128,3 +128,59 @@ errorCaptured(err, instance, info) {
 ```
 
 ##  组合 API
+
+### 响应性变量
+
+```js
+import { ref, reactive, computed } from "vue";
+export default {
+  setup() {
+        const commonVariable = "123"; // 普通变量
+
+        // ---用 ref 定义---
+
+        const num = ref(0); // 数字
+
+        const string = ref("string"); // 字符串
+
+        const arr = ref([1, 2, 3]); // 数组
+
+        // 对象的嵌套属性具会变成响应性
+
+        const obj = ref({ a: 1, b: 2 }); // 对象
+
+        // ---用 reactive 一次定义多个---
+
+        // 支持转入对象或数组
+
+        const option = reactive({
+            num: 1,
+
+            string: "234",
+        });
+
+        // 定义计算属性
+
+        const stringLen = computed(() => {
+            return string.value.length;
+        });
+
+        // ---访问---
+
+        console.log(num.value, string.value, arr.value, obj.value);
+
+        // ** value 值不等于原始数据 **
+
+        // string.value === 'string'; // false
+
+        console.log(option.num, option.string); // reactive 定义的变量无需通过 value 访问
+
+        console.log(stringLen.value); // 计算属性也要通过 value 访问
+
+        // ---导出---
+
+        return { commonVariable, num, string, arr, obj, option, stringLen }; // 导出的数据在 template 中可以直接访问
+    },
+};
+
+```
