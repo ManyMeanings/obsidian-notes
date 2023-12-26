@@ -33,10 +33,10 @@
 
 ```html
 <!--Parent-->
-<Child v-slot:default="props">{{ props.name }}</Child>
+<Child v-slot:child="props">{{ props.text }}</Child>
 
 <!--Child-->
-<slot :name="name"/>
+<slot name="child" :text="showMsg"/>
 ```
 
 ### CSS 中绑定响应数据
@@ -127,7 +127,7 @@ errorCaptured(err, instance, info) {
 }
 ```
 
-##  组合 API
+## 组合式 API
 
 ### 响应性变量
 
@@ -146,7 +146,7 @@ export default {
     const obj = ref({ a: 1, b: 2 }); // 对象
 
     // ---用 reactive 定义响应式对象---
-    // 支持转入对象或数组
+    // 支持转入对象类型
     const option = reactive({
       num: 1,
       string: "234",
@@ -175,6 +175,7 @@ export default {
   },
 };
 ```
+
 ### 侦听器
 
 ```js
@@ -210,10 +211,70 @@ export default {
 	  // 注意：`newValue` 此处和 `oldValue` 是相等的
 	  // 因为它们是同一个对象！
 	});
-	// 深度侦听
-
-
+	// 显式指定深度侦听
+	watch(
+	  () => obj,
+	  (newValue, oldValue) => {
+	    // 注意：`newValue` 此处和 `oldValue` 是相等的
+	    // *除非* obj 被整个替换了
+	  },
+	  { deep: true }
+	);
+	// 获取 oldValue 并且深度侦听
+	watch(
+	  () => JSON.parse(JSON.stringify(obj)),
+	  (newValue, oldValue) => {
+	    // 注意：`newValue` 此处和 `oldValue` 是相等的
+	    // *除非* obj 被整个替换了
+	  },
+	  { deep: true }
+	);
+	
+	// ---即时回调的侦听器---
+	watch(
+	  source,
+	  (newValue, oldValue) => {
+		// 立即执行，且当 `source` 改变时再次执行
+	  },
+	  { immediate: true }
+	)
+	
+	// ---自动跟踪回调的响应式依赖---
+	// 回调会立即执行
+	watchEffect(async () => {
+	  const response = await fetch(
+	    `https://jsonplaceholder.typicode.com/todos/${todoId.value}`
+	  )
+	  data.value = await response.json()
+	})
   },
 };
 
 ```
+
+### 依赖注入
+
+```js
+// proent
+const msg = ref({ text: 'msg from parent' });
+// 使用 toRef 保持 text 的响应性
+provide('msg', toRef(msg.value, 'text'));
+
+// child
+const msg = inject('msg');
+```
+
+### composable
+
+- composable 是一个普通的 js 函数，命名通常以 use 开头；
+- setup() 中的代码全部可以在 composable 中编写；
+- composable 的逻辑越独立越好
+- 能减少组件文件的代码，增强复用
+
+### `<script setup>`
+
+- 给 script 标签添加 setup 属性 
+- 可以直接当作在 setup 函数中编写代码
+- 不用手动返回变量，可以直接在模板中使用 
+- import 导入的变量也可直接在模板使用
+- 定义 props 使用 defineProps，定义事件使用 defineEmits，编译器宏，无需导入

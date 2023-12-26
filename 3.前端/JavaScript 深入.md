@@ -1,4 +1,3 @@
-
 ### 语言特性
 
 - **高级语言**：不需要手动管理内存等资源
@@ -197,6 +196,7 @@ HTML 页面的生命周期包含三个重要事件：
  - `loading` —— 文档正在被加载。
  - `interactive` —— 文档已被解析完成，与 `DOMContentLoaded` 几乎同时发生，但是在 `DOMContentLoaded` 之前发生。
  - `complete` —— 文档和资源均已加载完成，与 `window.onload` 几乎同时发生，但是在 `window.onload` 之前发生。
+
 #### 脚本加载
 
 ![[Pasted image 20231206202024.png]]
