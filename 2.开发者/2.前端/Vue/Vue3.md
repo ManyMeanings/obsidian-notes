@@ -278,3 +278,31 @@ const msg = inject('msg');
 - 不用手动返回变量，可以直接在模板中使用 
 - import 导入的变量也可直接在模板使用
 - 定义 props 使用 defineProps，定义事件使用 defineEmits，编译器宏，无需导入
+
+### `Transition`
+
+- 由 `v-if` 所触发的切换
+- 由 `v-show` 所触发的切换
+- 由特殊元素 `<component>` 切换的动态组件
+- 改变特殊的 `key` 属性
+
+![[Pasted image 20231227142814.png]]
+
+```html
+<button @click="show = !show">Toggle</button>
+<Transition name="fade">
+  <p v-if="show">hello</p>
+</Transition>
+```
+
+```css
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+```

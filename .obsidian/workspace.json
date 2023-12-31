@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.前端/常用依赖库/Axios.md",
+                "file": "2.开发者/2.前端/常用依赖/TypeScript.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 216.5
   },
   "right": {
     "id": "b8985a9490a32af3",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.前端/常用依赖库/Axios.md",
+                "file": "2.开发者/2.前端/常用依赖/TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.前端/常用依赖库/Axios.md",
+                "file": "2.开发者/2.前端/常用依赖/TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.前端/常用依赖库/Axios.md"
+                "file": "2.开发者/2.前端/常用依赖/TypeScript.md"
               }
             }
           },
@@ -144,7 +144,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -167,39 +169,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3640c9fe02f2eea9",
+  "active": "7af7bf7a0e9f155e",
   "lastOpenFiles": [
-    "3.前端/常用依赖库",
-    "3.前端/Vue3.md",
-    "3.前端/常用依赖库/Axios.md",
-    "3.前端/JavaScript Tricks.md",
-    "3.前端/CSS Tricks.md",
-    "3.前端/JavaScript 常用方法.md",
-    "3.前端/JavaScript 深入.md",
-    "3.前端/JavaScript 语法.md",
-    "3.前端/前端知识图谱.md",
+    "2.开发者/2.前端/Vue/Pinia.md",
+    "2.开发者/2.前端/常用依赖/TypeScript.md",
+    "2.开发者/2.前端/JavaScript 语法.md",
+    "2.开发者/2.前端/JavaScript 常用方法.md",
+    "2.开发者/2.前端/JavaScript 深入.md",
+    "2.开发者/2.前端/Vue/Vuex.md",
+    "2.开发者/2.前端/Vue/Vue Router.md",
+    "2.开发者/2.前端/Vue/Vue3.md",
+    "2.开发者/2.前端/常用依赖/Axios.md",
+    "2.开发者/2.前端/Vue",
+    "2.开发者/2.前端/JavaScript Tricks.md",
+    "2.开发者/Roadmaps.md",
+    "3.文章摘录/学习编程的12条规则.md",
+    "2.开发者/2.前端/前端知识图谱.md",
+    "2.开发者",
+    "Attachments/Pasted image 20231227142814.png",
+    "2.开发者/2.前端/CSS Tricks.md",
+    "2.开发者/1.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "1.工具&技能/网页设计原则.md",
+    "2.开发者/2.前端/常用依赖",
     "3.前端/JavaScript 常用方法实现.md",
-    "2.数据结构&算法/题目/3.无重复字符的最长子串.md",
     "3.前端/HTML 语法.md",
     "README.md",
     "1.工具&技能/Final Cut Pro.md",
     "1.工具&技能/ACGN.md",
-    "1.工具&技能/网页设计原则.md",
     "Attachments/ACGN资源入门.pdf",
     "Attachments/回归本地教程.pdf",
     "Attachments/Pasted image 20231217103454.png",
     "3.前端/文字大小&间距.md",
     "Attachments/068 all-design-guidelines.pdf",
     "Excalidraw/Drawing 2023-12-16 14.00.02.excalidraw.md",
-    "2.数据结构&算法/算法/滑动窗口.md",
+    "2.开发者/1.数据结构&算法/算法/滑动窗口.md",
     "Excalidraw/Drawing 2023-08-13 10.47.25.excalidraw.md",
-    "2.数据结构&算法/题目/46.全排列.md",
+    "2.开发者/1.数据结构&算法/题目/46.全排列.md",
     "Attachments/Pasted image 20231210105915.png",
-    "2.数据结构&算法/题目/5.最长回文子串.md",
-    "2.数据结构&算法/算法/排序.md",
-    "2.数据结构&算法/学习算法和刷题的框架思维.md",
-    "2.数据结构&算法/时间复杂度.md",
-    "2.数据结构&算法/我的刷题心得.md",
     "Attachments/Pasted image 20231206202537.png",
     "Attachments/Pasted image 20231206202024.png",
     "Attachments/Pasted image 20231205160700.png",
@@ -207,14 +213,10 @@
     "Attachments/Pasted image 20231203144440.png",
     "Attachments/Pasted image 20231202095533.png",
     "Attachments/Pasted image 20231202095521.png",
-    "Attachments/Pasted image 20231202095417.png",
-    "3.前端",
+    "2.开发者/2.前端",
     "1.工具&技能",
     "未命名.canvas",
     "Excalidraw",
-    "Attachments/Swift Cheat Sheet [Swift 5].pdf",
-    "2.数据结构&算法/题目",
-    "2.数据结构&算法/算法",
-    "2.数据结构&算法/数据结构"
+    "Attachments/Swift Cheat Sheet [Swift 5].pdf"
   ]
 }
