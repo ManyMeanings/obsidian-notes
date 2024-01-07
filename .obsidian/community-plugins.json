@@ -1,6 +1,8 @@
 [
-  "table-editor-obsidian",
   "obsidian-linter",
   "obsidian-format-code",
-  "obsidian-mkdocs-publisher"
+  "obsidian-mkdocs-publisher",
+  "floating-toc",
+  "obsidian-outliner",
+  "obsidian-reading-time"
 ]
