@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1831c80991b4cd2c",
+        "id": "dfe5e83ee438a253",
         "type": "tabs",
         "children": [
           {
-            "id": "f13f905717998db9",
+            "id": "27e222d31cf037c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.程序开发/1.数据结构&算法/题目/56.合并区间.md",
+                "file": "2.程序开发/0.面试/代码输出结果.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "5efdb0a90bf5f383",
+            "id": "a9079eaed7e5e200",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.程序开发/0.面试/计算机网络.md",
+                "file": "2.程序开发/0.面试/HTML & DOM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c0d3abf2fb31249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.程序开发/0.面试/项目&开放问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#高频面试题  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.程序开发/0.面试/计算机网络.md",
+                "file": "2.程序开发/0.面试/项目&开放问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.程序开发/0.面试/计算机网络.md",
+                "file": "2.程序开发/0.面试/项目&开放问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.程序开发/0.面试/计算机网络.md"
+                "file": "2.程序开发/0.面试/项目&开放问题.md"
               }
             }
           },
@@ -169,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5,
-    "collapsed": true
+    "width": 230.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,54 +195,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5efdb0a90bf5f383",
+  "active": "5c0d3abf2fb31249",
   "lastOpenFiles": [
-    "2.程序开发/1.数据结构&算法/题目/56.合并区间.md",
+    "2.程序开发/0.面试/JavaScript.md",
+    "2.程序开发/0.面试/Vue 原理.md",
+    "2.程序开发/0.面试/浏览器.md",
     "2.程序开发/0.面试/计算机网络.md",
-    "2.程序开发/1.数据结构&算法/题目/104.二叉树的最大深度.md",
-    "2.程序开发/1.数据结构&算法/题目/322.零钱兑换.md",
-    "2.程序开发/1.数据结构&算法/算法/回溯.md",
-    "2.程序开发/1.数据结构&算法/算法/贪心.md",
-    "2.程序开发/1.数据结构&算法/题目/22.括号生成.md",
-    "2.程序开发/1.数据结构&算法/题目/46.全排列.md",
-    "2.程序开发/1.数据结构&算法/题目/704.二分查找.md",
-    "2.程序开发/1.数据结构&算法/题目/146.LRU 缓存.md",
-    "2.程序开发/1.数据结构&算法/题目/121.买卖股票的最佳时机.md",
-    "Attachments/Pasted image 20240105204027.png",
-    "Attachments/Pasted image 20240105204016.png",
-    "Attachments/Pasted image 20240105203735.png",
-    "Attachments/Pasted image 20240105192202.png",
-    "Attachments/Pasted image 20240105190245.png",
-    "2.程序开发/1.数据结构&算法/算法/二分搜索.md",
-    "2.程序开发/0.面试",
-    "2.程序开发/0.八股文.md",
-    "2.程序开发/1.数据结构&算法/题目/300.最长递增子序列.md",
-    "2.程序开发/1.数据结构&算法/题目/200.岛屿数量.md",
-    "2.程序开发/1.数据结构&算法/题目/21.合并两个有序链表.md",
-    "2.程序开发/1.数据结构&算法/题目/129.求根节点到叶节点数字之和.md",
-    "2.程序开发/1.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "2.程序开发/0.面试/手写题.md",
+    "2.程序开发/0.面试/HTML & DOM.md",
+    "2.程序开发/0.面试/前端工程化.md",
+    "2.程序开发/0.面试/设计模式.md",
+    "2.程序开发/0.面试/项目&开放问题.md",
+    "2.程序开发/0.面试/CSS.md",
+    "2.程序开发/0.面试/代码输出结果.md",
+    "2.程序开发/0.面试/性能优化.md",
+    "2.程序开发/0.面试/代码输出题.md",
+    "2.程序开发/0.面试/Node.js.md",
+    "2.程序开发/0.面试/Vue 基础.md",
+    "Attachments/Pasted image 20240217162329.png",
+    "2.程序开发/0.面试/HTML.md",
+    "2.程序开发/0.面试/TypeScript.md",
+    "2.程序开发/0.面试/Webpack.md",
+    "2.程序开发/2.前端/Vue/Vue3.md",
+    "2.程序开发/2.前端/Vue/Vuex.md",
+    "Attachments/Pasted image 20240209155033.png",
+    "Attachments/Pasted image 20240209110316.png",
+    "Attachments/Pasted image 20240209104332.png",
+    "Attachments/Pasted image 20240208165227.png",
+    "Attachments/Pasted image 20240205151234.png",
     "2.程序开发/1.数据结构&算法/算法/排序.md",
-    "2.程序开发/1.数据结构&算法/题目/54.螺旋矩阵.md",
-    "2.程序开发/1.数据结构&算法/题目/215.数组中的第K个最大元素.md",
-    "2.程序开发/1.数据结构&算法/题目/5.最长回文子串.md",
-    "2.程序开发/1.数据结构&算法/算法/哈希.md",
-    "2.程序开发/1.数据结构&算法/题目/141.环形链表.md",
-    "2.程序开发/1.数据结构&算法/题目/102.二叉树的层序遍历.md",
+    "Attachments/Pasted image 20240131153414.png",
+    "Attachments/Pasted image 20240131152856.png",
+    "Attachments/Pasted image 20240131151935.png",
+    "2.程序开发/0.面试/未命名",
     "2.程序开发/1.数据结构&算法/数据结构/二叉树.md",
+    "2.程序开发/1.数据结构&算法/题目/704.二分查找.md",
+    "2.程序开发/1.数据结构&算法/题目/3.无重复字符的最长子串.md",
+    "2.程序开发/2.前端/JavaScript 语法.md",
+    "2.程序开发/1.数据结构&算法/题目/146.LRU 缓存.md",
+    "Attachments/Pasted image 20240121203707.png",
+    "2.程序开发/0.面试",
     "2.程序开发/2.前端/Vue",
     "2.程序开发",
-    "Attachments/Pasted image 20231227142814.png",
     "2.程序开发/2.前端/常用依赖",
     "Attachments/ACGN资源入门.pdf",
     "Attachments/回归本地教程.pdf",
-    "Attachments/Pasted image 20231217103454.png",
     "Attachments/068 all-design-guidelines.pdf",
-    "Attachments/Pasted image 20231210105915.png",
-    "Attachments/Pasted image 20231206202537.png",
-    "Attachments/Pasted image 20231206202024.png",
     "2.程序开发/2.前端",
     "1.工具&技能",
-    "未命名.canvas",
-    "Excalidraw"
+    "未命名.canvas"
   ]
 }

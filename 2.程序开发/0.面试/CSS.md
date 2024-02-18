@@ -1,0 +1,425 @@
+### 简述 CSS 的盒模型
+
+	一个盒子由四个部分组成：`content`、`padding`、`border`、`margin`
+
+通过 `box-sizing` 属性配置：
+- `content-box`：默认属性。width 只包含 content
+- `border-box`：width 包含 content、padding、border
+
+###  display 的 block、inline 和 inline-block 的区别
+
+- `block` 块级元素：
+	- 可以设置宽高
+	- 可以设置 margin 和 padding
+	- 独占一行
+	- 能包含任何标签
+- `inline` 行内元素：
+	- 无法设置宽高
+	- 只能设置水平方向的 margin 和 padding
+	- 不会换行
+	- 只能包含文本和行内元素
+- `inline-block`
+	- 不会换行，其他和块级元素一致
+
+### CSS specificity（权重）
+
+选择器的优先级分为三个等级：
+1. `id` 选择器，如 `#app`
+2. `class`、`attribute` 与 `pseudo-classes` 选择器，如 `.header`、`[type="radio"]` 与 `:hover`
+3. `type` 标签选择器和伪元素选择器，如 `h1`、`p` 和 `::before`
+
+计算规则：
+1. 每个等级的值为选择器出现次数相加，不可进位
+2. 优先级比较从高到低，如果某一等级数值相同，则比较下一级
+3. 如果两个选择器优先级相同，则最后出现的优先级高
+4. 通配符选择器 `*`，组合选择器 `+ ~ >`，否定伪类选择器 `:not()` 对优先级无影响
+5. 内联样式和 `!important`(最高) 具有更高的权重
+6. CSS 样式表的冲突：相同选择器采取就近原则；外部样式表的 id 选择器 > 内嵌样式表的标签选择器。
+
+### CSS 选择器有哪些？
+
+- id 选择器（`#myid`）
+- 类选择器（`.myclassname`）
+- 标签选择器（`div`）
+- 后代选择器（`h1 p`）
+- 交集选择器（`p.myclassname`）
+- 并集选择器（`h1, p`）
+- 相邻后代（子）选择器（`ul>li`）选择父元素为 ul 的所有 li 的元素
+- 兄弟选择器（`li~a`）选择前面有 li 元素的每个 a 元素
+- 相邻兄弟选择器（`li+a`）选择紧接在 li 之后的所有 a 元素
+- 属性选择器（`a[rel="external"]`）
+- 伪类选择器（`a:hover`）
+- 伪元素选择器（`::before`）
+- 通配符选择器（`*`）
+
+### 说说 em/px/rem/vh/vw 区别?
+
+- **px** 像素
+- **em** 相对于自身的 `font-size` 值，如当前对行内文本的字体尺寸未被人为设置，则相对于浏览器的默认字体尺寸（`1em = 16px`）
+- **rem** 相对的只是 HTML 根元素 `font-size` 的值（*通常在根元素 `html` 中设置 `font-size: 62.5%`，使得 `1rem =10px`*）
+- **vh、vw** 将窗口的宽高分成 100 等分（*在桌面端是可视区域，在移动端是布局视口*）
+
+### 说说设备像素、css 像素、设备独立像素、dpr、ppi 之间的区别？
+
+- **设备像素（物理像素）** 设备能控制显示的最小物理单位，不会改变
+- **设备独立像素** 通过程序控制的虚拟像素，一个设备独立像素里可能包含 1 个或者多个物理像素点，包含的越多则屏幕看起来越清晰
+- **CSS 像素** 无缩放情况下，1 个 CSS 像素等于 1 个设备独立像素
+- **dpr** 设备像素比，`dpr=设备像素/设备独立像素`
+- **ppi** 每英寸像素，表示像素密度，数值越高，说明屏幕能以更高密度显示图像
+
+### 什么是层叠上下文？
+
+![[Pasted image 20240115150836.png]]
+
+元素发生层叠时有着特定的垂直显示顺序：
+1. **背景和边框**: 建立当前层叠上下文元素的背景和边框。
+2. **负的 z-index**: 当前层叠上下文中，z-index 属性值为负的元素。
+3. **块级盒**: 文档流内非行内级非定位后代元素。
+4. **浮动盒**: 非定位浮动元素。
+5. **行内盒**: 文档流内行内级非定位后代元素。
+6. **z-index:0**: 层叠级数为 0 或 auto 的定位元素。
+7. **正 z-index**:z-index 属性值为正的定位元素。
+
+注意：z-index 高数值不一定在低数值前面，因为有层叠上下文的概念。当处于两个兄弟层叠上下文时，子元素的层级显示不决定于自身的 z-index，而取决于父级的 z-index
+![[Pasted image 20240115152316.png]]
+
+### 什么是 BFC（块级格式化上下文）？
+
+`BFC`（Block Formatting Context），即块级格式化上下文，它是页面中的一块渲染区域，并且有一套属于自己的渲染规则：
+
+特点：
+- 内部的盒子会在垂直方向上一个接一个的放置
+- 对于同一个 BFC 的两个相邻的盒子的 margin 会发生重叠，与方向无关。
+- 每个元素的左外边距与包含块（**最近祖先块元素的内容区域**）的左边界相接触（从左到右），即使浮动元素也是如此
+- BFC 的区域不会与 float 的元素区域重叠
+- 计算 BFC 的高度时，浮动子元素也参与计算
+- BFC 就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素，反之亦然
+
+#### 如何创建 BFC？
+
+- 元素设置**浮动**：float 值为 left 或 right
+- 元素设置**绝对定位**：position 值为 absolute 或 fixed);
+- **display** 为：inline-block、flex、inline-flex、grid、table-cell、table-caption 等;
+- **overflow** 为：hidden、auto、scroll
+- 根元素，即 HTML 元素
+
+#### BFC 的应用？
+
+- margin 重叠问题
+- 高度塌陷：对子元素设置浮动后，父元素高度变为 0，此时可以给父元素设置 `overflow: hidden`
+- 阻止元素被浮动元素覆盖
+
+#### margin 重叠发生的情况？
+
+- 相邻兄弟元素
+- 父元素和子元素的 margin-top
+- 高度为 auto 的父元素和子元素的 margin-bottom
+- 没有内容的元素，自身的 margin-top 和 margin-bottom
+
+### css 中有哪些方式可以隐藏页面元素？
+
+- `display:none` 元素不可见，不占据空间，无法响应点击事件
+- `visibility:hidden` 元素不可见，占据页面空间，无法响应点击事件
+- `opacity:0` 改变元素透明度，元素不可见，占据页面空间，可以响应点击事件
+- `设置 height、width 模型属性为 0` 元素不可见，不占据页面空间，无法响应点击事件
+- `position:absolute 将元素移出可视区域` 元素不可见，不影响页面布局
+
+|  | **display: none** | **visibility: hidden** | **opacity: 0** |
+| ---- | ---- | ---- | ---- |
+| 页面中 | 不存在 | 存在 | 存在 |
+| 重排 | 会 | 不会 | 不会 |
+| 重绘 | 会 | 会 | 不一定 |
+| 自身绑定事件 | 不触发 | 不触发 | 可触发 |
+| transition | 不支持 | 支持 | 支持 |
+| 子元素可复原 | 不能 | 能 | 不能 |
+| 被遮挡的元素可触发事件 | 能 | 能 | 不能 |
+
+### position 的值 relative 和 absolute 定位原点是？
+
+- relative 相对于其元素本身所在正常位置进行定位,设置偏移后仍然占用原来的文档空间。
+- absolute 定位原点是离自己最近的**非 static 祖先元素**（到 html 根标签为止）的左上角为原点，设置偏移后元素原先在正常文档流中所占的空间会关闭。
+
+### 浮动元素的特点？
+
+- 浮动元素脱离标准流。
+- 浮动元素互相贴靠。
+- 浮动元素有“字围”效果。
+- 收缩：一个浮动的元素，如果没有设置 width，那么将自动收缩为内容的宽度。
+
+#### 如何清除浮动？
+
+```css
+.clearfix::after {
+	content: ' ';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+```
+
+### 元素居中布局的方法有哪些？
+
+#### 内联元素居中布局
+
+水平居中
+
+- 行内元素可设置：text-align: center
+- flex 布局设置父元素：display: flex; justify-content: center
+
+垂直居中
+
+- 单行文本父元素确认高度：height === line-height
+- 多行文本父元素确认高度：display: table-cell; vertical-align: middle
+
+#### 块级元素居中布局
+
+水平居中
+
+- 定宽: margin: 0 auto
+- 绝对定位 +left:50%+margin: 负自身一半
+
+垂直居中
+
+- position: absolute 设置 left、top、margin-left、margin-top(定高)
+- display: table-cell
+- transform: translate(x, y)
+- flex(不定高，不定宽)
+- grid(不定高，不定宽)，兼容性相对比较差
+
+### 两栏布局和三栏布局实现？
+
+#### 两栏布局
+
+- float 左浮动左边栏，主体设置 margin-left，父元素设置 BFC
+- 父元素设置 flex，左边栏设置宽度，主题设置 flex:1
+- 父元素设置 grid，grid-template-columns: 200px 1fr
+
+#### 三栏布局
+
+- 两边使用 float，中间使用 margin
+- 两边使用 absolute，中间使用 margin
+- 父元素设置 flex，中间设置 flex:1，两边设置宽度
+- 父元素设置 grid，grid-template-columns: 200px 1fr 200px
+
+###  flexbox（弹性盒子布局）的常用属性？
+
+容器元素：
+- `display: flex`
+- `flex-direction` 主轴方向
+- `flex-wrap` 换行方式
+- `justify-content` 项目在主轴上的对齐方式
+- `align-items` 项目在交叉轴上的对齐方式
+- `align-content` 有多根轴钱时项目整体在交叉轴上的对齐方式
+- `gap: 5px 5px` 行间距和项目间距
+项目元素：
+- `order` 排列顺序，默认为 0
+- `flex-grow` 存在剩余空间时项目的放大比例，默认为 0
+- `flex-shrink` 如果空间不足，项目的缩小比例，默认为 1
+- `flex-basis` 项目占据的主轴长度，默认为 auto
+- `flex` 前三项的简写，默认值为 `0 1 auto`，后两个可选
+- `align-self` 单个项目的对齐方式
+
+### grid（网格布局）常用属性？
+
+容器元素：
+- `display: grid`
+- `grid-template-columns` 定义列宽
+- `grid-template-rows` 定义行高
+- `gap` 行间距和列间距
+- `justify-items` 设置单元格内容的水平位置（左中右）
+- `align-items` 属性设置单元格内容的垂直位置（上中下）
+- `place-items` 属性是 `align-items` 属性和 `justify-items` 属性的合并简写形式。
+- `justify-content` 属性是整个内容区域在容器里面的水平位置（左中右）
+- `align-content` 属性是整个内容区域的垂直位置（上中下）
+- `place-content` 属性是 `align-content` 属性和 `justify-content` 属性的合并简写形式
+
+项目元素：
+- `grid-column` 属性是 `grid-column-start` 和 `grid-column-end` 的合并简写形式
+- `grid-row` 属性是 `grid-row-start` 属性和 `grid-row-end` 的合并简写形式
+- `justify-self` 属性设置单元格内容的水平位置（左中右）
+- `align-self` 属性设置单元格内容的垂直位置（上中下）
+- `place-self` 属性是 `align-self` 属性和 `justify-self` 属性的合并简写形式
+
+### 怎么做响应式设计？
+
+- 通过媒体查询检测不同的设备屏幕尺寸做处理
+- 移动端需要设置 viewport：`<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no”>`
+- 布局使用 flex 或者 grid
+- 使用相对单位 rem： `html` 中设置 `font-size: 62.5%`，使得 `1rem=10px`
+
+### 什么是 CSS 工程化？
+
+1. 预编译器：less、sass、stylus 等。
+2. CSS 模块化方案：常见的像 Vue 里的 scoped 方案以及 React 里的 CSS-in-JS 方案。
+3. CSS 自动化工具：比如 PostCSS，就提供很多有用的插件，让我们可以做一些 CSS 的自动化工作，比如自动添加前缀、自动格式化代码、移动端适配。
+4. 代码检测工具：如 CSSLint、Stylelint 等，可以自动化检测 CSS 代码的错误和潜在问题，提高代码质量和稳定性。
+5. 样式指南：主要是指 CSS 的规范，包括设计原则、排版规则、颜色使用、图标规范、命名规范、代码格式化等各方面的规范。
+
+### CSS 如何避免命名样式冲突？
+
+- BEM 式：将 CSS 类名分为块、元素和修饰符三个部分。
+	-  `block__list-item block__list-item--highlighted`
+- CSS Scoped
+	- `scoped css` 会对当前组件 (scope) 下所有元素生成唯一的属性或类名，对所有 CSS 规则将携带唯一属性实现作用域的命名保护
+- CSS Module
+	- `module css` 会对类名进行 hash 化
+
+### CSS 性能优化的方式？
+
+1. **压缩 CSS 代码**：通过删除空格、注释、冗余代码等方法，可以减小 CSS 文件的大小，提高加载速度，不过这些通常脚手架已经帮我们做好了。
+2. **合并 CSS 文件**：将多个 CSS 文件合并成一个文件，减少 HTTP 请求次数，提高加载速度。在项目中可以用 Webpack 插件来实现。
+3. **图片压缩/雪碧图/小图转为 base64 格式**
+4. **首屏样式内联**，可以减少加载 CSS 文件的时间，提升页面加载速度。
+5. **使用 CSS3 硬件加速**，可以减少回流重绘，常见的触发硬件加速的 CSS 属性有：transform、opacity、filters、Will-change。
+6. **减少使用通配符和后代选择器**：过多的通配符和后代选择器会降低选择器的匹配速度，应尽量减少使用。
+7. **避免使用过多的 float**：过多的浮动会导致页面回流和重绘，影响性能。
+8. **缓存**：可以在服务器端设置协商缓存或者强缓存来缓存 CSS 请求。
+
+### CSS 变量是什么？使用场景？
+
+```css
+:root {
+  --color: red;
+}
+h1 {
+  var(--color)
+}
+```
+
+CSS 变量带有前缀 `--` 的属性名，比如 `--example--name`，表示的是带有值的自定义属性，可以通过 `var()` 函数在全文档范围内复用。
+
+减少样式的重复定义，方便在 js 中使用，可以实现主题色修改
+
+```js
+// 设置变量
+document.getElementById("box").style.setProperty("--color", "pink");
+// 读取变量
+doucment.getElementById("box").style.getPropertyValue("--color").trim();
+// 删除变量
+document.getElementById("box").style.removeProperty("--color");
+```
+
+### offsetWidth/offsetHeight,clientWidth/clientHeight 与 scrollWidth/scrollHeight 的区别？
+
+- clientWidth/clientHeight 返回的是元素的内部宽度，它的值只包含 content + padding，如果有滚动条，不包含滚动条。
+- offsetWidth/offsetHeight 返回的是元素的布局宽度，它的值包含 content + padding + border 包含了滚动条。
+- scrollWidth/scrollHeight 返回值包含 content + padding + 溢出内容的尺寸。
+
+### width: auto 和 width: 100% 的区别?
+
+`width: 100%` 会使元素 box 的宽度等于父元素的 contentbox 的宽度,并且随着父级的宽度自动变化，增加子元素的 `padding` 和 `margin` 之后，它的 contentbox 还是不变的。
+
+`width:auto` 会使元素撑满整个父元素，`margin`、`border`、`padding`、`content` 区域会自动分配水平空间。
+
+一般 `width:auto` 使用的多，因为这样灵活，而 `width:100%` 使用比较少，因为在增加 `padding` 或者 `margin` 的时候，容易使其突破父级框，破环布局。
+
+### 页面导入样式时，使用 link 和 @import 有什么区别？
+
+- **从属关系**：link 是 HTML 的标签，不仅可以加载 CSS 文件，还可以定义 rel 连接属性，引入网站图标等；@import 是 CSS 提供的语法规则，只能导入样式表。
+- **加载顺序**：link 引入的 CSS 同时加载，@import 引入的 CSS 在页面加载完毕后加载。
+- **兼容性**： link 无兼容性问题，@import 只适用于 IE5+ 的浏览器。
+- **DOM**：可以用 JS 插入 link 标签改变样式，无法使用 @import 的方式。
+
+### 移动端 1px 边框问题怎么解决？
+
+由于不同的设备屏幕像素密度的不同，一些边框、线条等细节元素的显示可能会出现“1px 问题”，即在某些设备上，本应该显示为 1 像素的边框或者线条，实际上却被放大成了 2 像素或者更多像素，导致显示效果不佳。
+
+常见的解决方案：
+
+1. 使用 border-image：使用 border-image 可以将图片作为边框来显示，避免了使用 CSS 边框样式时的 1px 问题。
+2. 使用 box-shadow：使用 box-shadow 代替边框，然后将边框设为透明，可以避免 1px 问题。
+
+```css
+.border {
+    box-shadow: 0 0 0 1px #ccc;
+}
+```
+
+3. 使用 viewport 单位：使用 viewport 相关的单位（如 vw、vh、vmin 和 vmax）来设置边框或者线条的大小，可以让元素的大小自适应不同的设备像素密度。
+
+### 对 CSS 动画有了解吗，CSS 实现动画有哪几种方式？
+
+SS 动画主要包括 transition 动画、transform 动画和 animation 动画。
+
+1. transition 动画：主要用来实现过渡效果，包括颜色、透明度、大小、位置，从一个状态向另一个状态过渡。
+
+```css
+.element {
+  transition: property duration timing-function delay;
+}
+```
+
+2. transform 动画：用于对元素进行变形和转换，如旋转、缩放、平移和倾斜等。transform 可以配合 transition 一起使用，例如：
+
+```css
+.element {
+  transform: rotate(45deg);
+  transition: transform duration timing-function delay;
+}
+```
+
+3. animation 动画：使用@keyframes 规则定义一组关键帧，描述元素在动画过程中的样式变化。然后通过 animation 属性将关键帧应用到元素上：
+
+```css
+@keyframes animationName {
+  0% { /* 初始样式 */ }
+  50% { /* 中间样式 */ }
+  100% { /* 结束样式 */ }
+}
+
+.element {
+  animation: animationName duration timing-function delay iteration-count direction;
+}
+```
+
+在日常开发中大多数时候制作简单动画使用一些第三方的 CSS 动画库就足够了，比如 Animate.css、Hover.css，但是复杂动画不仅要考虑 CSS，还要考虑 JS。在 Vue 和 React 这样的框架中，都提供了 Transition 组件来让我们实现动画。
+
+对于复杂动画，除了实现效果之外还要考虑到动画的性能优化，需要使用 Chrome 工具去调优。
+
+### 怎么实现换肤？
+
+1. 使用 CSS 变量，可以定义一个 `theme-color` 变量来存储主题色：
+
+```css
+:root {
+  --theme-color: #007bff; /* 定义主题色 */
+}
+```
+
+然后在需要使用主题色的地方使用 var() 函数来引用这个变量：
+
+```css
+.button {
+  background-color: var(--theme-color); /* 使用主题色 */
+}
+```
+
+再通过 JS 动态更改这个 CSS 变量的值，从而实现换肤的效果。
+
+2. 使用 class 切换，通过添加或移除不同的 class 来改变元素的样式，从而实现换肤。
+
+比如，可以定义多个 class 来表示不同的主题样式：
+
+```css
+.theme-blue {
+  /* 定义蓝色主题样式 */
+  background-color: #007bff;
+  color: #fff;
+}
+
+.theme-red {
+  /* 定义红色主题样式 */
+  background-color: #dc3545;
+  color: #fff;
+}
+```
+
+然后在需要换肤的元素上添加对应的 class：
+
+```html
+<button class="theme-blue">蓝色主题</button>
+<button class="theme-red">红色主题</button>
+```
+
+最后再通过 JS 动态添加或移除这些 class 来改变元素的样式，来实现换肤的效果。
