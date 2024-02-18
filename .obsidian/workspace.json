@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.程序开发/0.面试/代码输出结果.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.程序开发/0.面试/项目&开放问题.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.程序开发/0.面试/项目&开放问题.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.程序开发/0.面试/项目&开放问题.md"
+                "file": "README.md"
               }
             }
           },
@@ -195,8 +193,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5c0d3abf2fb31249",
+  "active": "27e222d31cf037c1",
   "lastOpenFiles": [
+    "2.程序开发/0.面试/代码输出结果.md",
+    "2.程序开发/0.面试/项目&开放问题.md",
     "2.程序开发/0.面试/JavaScript.md",
     "2.程序开发/0.面试/Vue 原理.md",
     "2.程序开发/0.面试/浏览器.md",
@@ -205,9 +205,7 @@
     "2.程序开发/0.面试/HTML & DOM.md",
     "2.程序开发/0.面试/前端工程化.md",
     "2.程序开发/0.面试/设计模式.md",
-    "2.程序开发/0.面试/项目&开放问题.md",
     "2.程序开发/0.面试/CSS.md",
-    "2.程序开发/0.面试/代码输出结果.md",
     "2.程序开发/0.面试/性能优化.md",
     "2.程序开发/0.面试/代码输出题.md",
     "2.程序开发/0.面试/Node.js.md",
