@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dfe5e83ee438a253",
+        "id": "cd0b020c9588a1fd",
         "type": "tabs",
         "children": [
           {
-            "id": "27e222d31cf037c1",
+            "id": "2ac95e21aa4b2cac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2.程序开发/0.面试准备/7.Vue 原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "a9079eaed7e5e200",
+            "id": "8c25d97de02808ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.程序开发/0.面试/HTML & DOM.md",
+                "file": "2.程序开发/0.面试准备/项目 - 资产配置系统.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,19 +34,20 @@
             }
           },
           {
-            "id": "5c0d3abf2fb31249",
+            "id": "2c4bf3ff7e92737a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.程序开发/0.面试/项目&开放问题.md",
+                "file": "2.程序开发/0.面试准备/2.安全 & 浏览器.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"aliases\":",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2.程序开发/0.面试准备/项目 - 资产配置系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "2.程序开发/0.面试准备/项目 - 资产配置系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "2.程序开发/0.面试准备/项目 - 资产配置系统.md"
               }
             }
           },
@@ -193,54 +194,54 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "27e222d31cf037c1",
+  "active": "8c25d97de02808ab",
   "lastOpenFiles": [
-    "2.程序开发/0.面试/代码输出结果.md",
-    "2.程序开发/0.面试/项目&开放问题.md",
-    "2.程序开发/0.面试/JavaScript.md",
-    "2.程序开发/0.面试/Vue 原理.md",
-    "2.程序开发/0.面试/浏览器.md",
-    "2.程序开发/0.面试/计算机网络.md",
-    "2.程序开发/0.面试/手写题.md",
-    "2.程序开发/0.面试/HTML & DOM.md",
-    "2.程序开发/0.面试/前端工程化.md",
-    "2.程序开发/0.面试/设计模式.md",
-    "2.程序开发/0.面试/CSS.md",
-    "2.程序开发/0.面试/性能优化.md",
-    "2.程序开发/0.面试/代码输出题.md",
-    "2.程序开发/0.面试/Node.js.md",
-    "2.程序开发/0.面试/Vue 基础.md",
-    "Attachments/Pasted image 20240217162329.png",
-    "2.程序开发/0.面试/HTML.md",
-    "2.程序开发/0.面试/TypeScript.md",
-    "2.程序开发/0.面试/Webpack.md",
+    "2.程序开发/0.面试准备/代码输出题.md",
+    "2.程序开发/0.面试准备/12.设计模式.md",
+    "2.程序开发/0.面试准备/13.项目 & 开放问题.md",
+    "2.程序开发/0.面试准备/9.手写题.md",
+    "2.程序开发/0.面试准备/7.Vue 原理.md",
+    "2.程序开发/0.面试准备/6.Vue 基础.md",
+    "2.程序开发/0.面试准备/3.HTML & DOM.md",
+    "2.程序开发/0.面试准备/项目 - 资产配置系统.md",
+    "2.程序开发/0.面试准备/8.性能优化.md",
+    "2.程序开发/0.面试准备/10.代码输出结果.md",
+    "2.程序开发/0.面试准备/11.前端工程化.md",
+    "未命名",
+    "2.程序开发/0.面试准备/2.安全 & 浏览器.md",
+    "2.程序开发/0.面试准备/1.计算机网络.md",
+    "2.程序开发/2.前端/Vue/Vue Router.md",
+    "2.程序开发/0.面试准备/0.写在前面.md",
+    "2.程序开发/0.面试准备/场景题.md",
+    "2.程序开发/0.面试准备/5.JavaScript.md",
+    "2.程序开发/0.面试准备/React.md",
+    "2.程序开发/0.面试准备/Node.js.md",
+    "2.程序开发/0.面试准备/4.CSS.md",
+    "2.程序开发/Roadmaps.md",
+    "2.程序开发/2.前端/JavaScript Tricks.md",
+    "2.程序开发/2.前端/JavaScript 语法.md",
+    "2.程序开发/2.前端/JavaScript 深入.md",
+    "2.程序开发/2.前端/JavaScript 常用方法.md",
+    "2.程序开发/2.前端/最佳实践",
     "2.程序开发/2.前端/Vue/Vue3.md",
-    "2.程序开发/2.前端/Vue/Vuex.md",
+    "Attachments/Pasted image 20240225161838.png",
+    "Attachments/Pasted image 20240223170819.png",
+    "Attachments/Pasted image 20240223110500.png",
+    "Attachments/Pasted image 20240222154714.png",
+    "Attachments/Pasted image 20240217162329.png",
     "Attachments/Pasted image 20240209155033.png",
     "Attachments/Pasted image 20240209110316.png",
     "Attachments/Pasted image 20240209104332.png",
     "Attachments/Pasted image 20240208165227.png",
     "Attachments/Pasted image 20240205151234.png",
-    "2.程序开发/1.数据结构&算法/算法/排序.md",
-    "Attachments/Pasted image 20240131153414.png",
-    "Attachments/Pasted image 20240131152856.png",
-    "Attachments/Pasted image 20240131151935.png",
     "2.程序开发/0.面试/未命名",
-    "2.程序开发/1.数据结构&算法/数据结构/二叉树.md",
-    "2.程序开发/1.数据结构&算法/题目/704.二分查找.md",
-    "2.程序开发/1.数据结构&算法/题目/3.无重复字符的最长子串.md",
-    "2.程序开发/2.前端/JavaScript 语法.md",
-    "2.程序开发/1.数据结构&算法/题目/146.LRU 缓存.md",
-    "Attachments/Pasted image 20240121203707.png",
-    "2.程序开发/0.面试",
+    "2.程序开发/0.面试准备",
     "2.程序开发/2.前端/Vue",
     "2.程序开发",
     "2.程序开发/2.前端/常用依赖",
     "Attachments/ACGN资源入门.pdf",
     "Attachments/回归本地教程.pdf",
     "Attachments/068 all-design-guidelines.pdf",
-    "2.程序开发/2.前端",
-    "1.工具&技能",
     "未命名.canvas"
   ]
 }

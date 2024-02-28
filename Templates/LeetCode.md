@@ -1,9 +1,9 @@
 - **Metadata**
-	- Link:  
-	- Tags : 
-	- Difficulty: 
+	- Link:
+	- Tags :
+	- Difficulty:
 	- Date : {{date}}
-	- #高频面试题 
+	- #高频面试题
 ---
 
 ## 描述
@@ -12,7 +12,7 @@
 
 ### 算法
 
-1. 
+1.
 
 ```js
 

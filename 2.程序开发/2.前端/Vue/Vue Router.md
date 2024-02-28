@@ -91,14 +91,14 @@ export default {
 
 ### 导航守卫
 
-1. 先执行组件中的 beforeRouteLeave() 导航守卫 （如果有的话）。 
-2. 执行全局的 beforeEach() 导航守卫。 
-3. 在复用的组件中，执行 beforeRouteUpdate()导航守卫。 
+1. 先执行组件中的 beforeRouteLeave() 导航守卫 （如果有的话）。
+2. 执行全局的 beforeEach() 导航守卫。
+3. 在复用的组件中，执行 beforeRouteUpdate() 导航守卫。
 4. 执行路由对象中的 beforeEnter() 导航守卫。
 5. 解析异步的导航组件
-6. 执行组件中的 beforeRouterEnter() 导航守卫。 
-7. 执行全局的 beforeResolve() 导航守卫。 
-8. 确认导航，并发生页面跳转。 
-9. 执行全局的 afterEach() 导航守卫。 
-10. 更新 DOM 节点。 
+6. 执行组件中的 beforeRouterEnter() 导航守卫。
+7. 执行全局的 beforeResolve() 导航守卫。
+8. 确认导航，并发生页面跳转。
+9. 执行全局的 afterEach() 导航守卫。
+10. 更新 DOM 节点。
 11. 执行组件中 beforeRouterEnter 中的 next() 回调函数中的回调函数

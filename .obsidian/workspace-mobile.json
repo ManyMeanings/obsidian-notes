@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.程序开发/0.面试/手写题.md",
+                "file": "2.程序开发/0.面试准备/7.Vue 原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2.程序开发/0.面试/手写题.md",
+            "file": "2.程序开发/0.面试准备/7.Vue 原理.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "2.程序开发/0.面试/手写题.md",
+            "file": "2.程序开发/0.面试准备/7.Vue 原理.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2.程序开发/0.面试/手写题.md"
+            "file": "2.程序开发/0.面试准备/7.Vue 原理.md"
           }
         }
       }
@@ -134,16 +134,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "8ce0e58f809168d2",
   "lastOpenFiles": [
+    "2.程序开发/0.面试准备/项目 - 资产配置系统.md",
+    "2.程序开发/0.面试准备/0.写在前面.md",
+    "2.程序开发/1.数据结构&算法/题目/415.字符串相加.md",
+    "2.程序开发/0.面试/手写题.md",
     "1.工具&技能/ACGN.md",
     "README.md",
     "4.客户端/App.md",
@@ -180,10 +184,6 @@
     "Attachments/Swift Cheat Sheet [Swift 5].pdf",
     "Attachments",
     "iOS开发/App.md",
-    "iOS开发/XcodeShortcuts.md",
-    "iOS开发/自动布局.md",
-    "iOS开发/Swift Cheat Sheet.md",
-    "iOS开发/Swift.md",
-    "iOS开发/常用代码.md"
+    "iOS开发/XcodeShortcuts.md"
   ]
 }
