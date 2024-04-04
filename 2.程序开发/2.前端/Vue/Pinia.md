@@ -1,8 +1,0 @@
-- 创建 store
-- 添加状态 
-- 修改状态 
-- 异步的修改状态 
-- 创建并管理多个 store
-- 插件的编写
-- Options API
-- 与 TypeScript 集成
